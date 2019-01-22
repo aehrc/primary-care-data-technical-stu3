@@ -2,16 +2,7 @@
 
 These Profiles have been defined for this implementation guide.
 
-## Administration Profiles
+## XXX Profiles
 
-
-## Medications Profiles
-
-## Orders and Observations Profiles
-
-## Clinical Profiles
-
-## Composition Profiles
-
-## Profiles on Data Types
+* [XXXX](StructureDefinition-au-receivingapplication.html) - XXX desc 
 
