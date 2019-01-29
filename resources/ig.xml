@@ -34,6 +34,15 @@
         <reference value="StructureDefinition/au-receivingapplication"/>
       </sourceReference>
     </resource>
+    <resource>
+      <example value="true"/>
+      <name value="Patient with IHI and Medicare Number"/>
+      <description
+        value="Shows a typical patient using identifier profiles for IHI, Medicare Number and the extension for Indigenous Status"/>
+      <sourceReference>
+        <reference value="Patient/example0"/>
+      </sourceReference>
+    </resource>
 <!--	
     <resource>
       <example value="false"/>
@@ -794,15 +803,6 @@
       <name value="AllergyIntolerance example - egg allergy"/>
       <sourceReference>
         <reference value="AllergyIntolerance/allergyintolerance-example1"/>
-      </sourceReference>
-    </resource>
-    <resource>
-      <example value="true"/>
-      <name value="Patient with IHI and Medicare Number"/>
-      <description
-        value="Shows a typical patient using identifier profiles for IHI, Medicare Number and the extension for Indigenous Status"/>
-      <sourceReference>
-        <reference value="Patient/example0"/>
       </sourceReference>
     </resource>
     <resource>
