@@ -1,0 +1,151 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "1f8bfdf8-0bb9-4596-80e2-6d50a335e222",
+  "meta": {
+  "versionId": "1",
+  "lastUpdated": "2019-02-28T16:13:24.202+10:00"
+  },
+  "text": {
+  "status": "generated",
+  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>FHIR Marital Status to AU Marital Status</h2><tt>http://aehrc.com/conceptmap/fhir-marital-status-au-marital-status</tt><p>FHIR Marital Status to AU Marital Status</p></div>"
+  },
+  "url": "http://aehrc.com/conceptmap/fhir-marital-status-au-marital-status",
+  "name": "FHIR Marital Status to AU Marital Status",
+  "status": "draft",
+  "experimental": true,
+  "date": "2019-02-28",
+  "contact": [
+  {
+    "telecom": [
+    {
+      "system": "email"
+    }
+    ]
+  }
+  ],
+  "description": "FHIR Marital Status to AU Marital Status",
+  "sourceUri": "http://hl7.org/fhir/ValueSet/marital-status",
+  "targetUri": "http://aehrc.com/valueset/marital-status",
+  "group": [
+  {
+    "source": "http://hl7.org/fhir/v3/MaritalStatus",
+    "target": "http://aehrc.com/codesystem/marital-status",
+    "element": [
+    {
+      "code": "A",
+      "display": "Annulled",
+      "target": [
+      {
+        "equivalence": "unmatched"
+      }
+      ]
+    },
+    {
+      "code": "D",
+      "display": "Divorced",
+      "target": [
+      {
+        "code": "3",
+        "display": "Divorced",
+        "equivalence": "equivalent"
+      }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Interlocutory",
+      "target": [
+      {
+        "equivalence": "unmatched"
+      }
+      ]
+    },
+    {
+      "code": "L",
+      "display": "Legally Separated",
+      "target": [
+      {
+        "code": "4",
+        "display": "Separated",
+        "equivalence": "wider"
+      }
+      ]
+    },
+    {
+      "code": "M",
+      "display": "Married",
+      "target": [
+      {
+        "code": "5",
+        "display": "Married (registered and de facto)",
+        "equivalence": "wider"
+      }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Polygamous",
+      "target": [
+      {
+        "equivalence": "unmatched"
+      }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Never Married",
+      "target": [
+      {
+        "code": "1",
+        "display": "Never married",
+        "equivalence": "equivalent"
+      }
+      ]
+    },
+    {
+      "code": "T",
+      "display": "Domestic partner",
+      "target": [
+      {
+        "code": "5",
+        "display": "Married (registered and de facto)",
+        "equivalence": "wider"
+      }
+      ]
+    },
+    {
+      "code": "U",
+      "display": "unmarried",
+      "target": [
+      {
+        "code": "6",
+        "display": "Not stated/inadequately described",
+        "equivalence": "wider"
+      }
+      ]
+    },
+    {
+      "code": "W",
+      "display": "Widowed",
+      "target": [
+      {
+        "code": "2",
+        "display": "Widowed",
+        "equivalence": "equivalent"
+      }
+      ]
+    },
+    {
+      "code": "UNK",
+      "target": [
+      {
+        "code": "6",
+        "display": "Not stated/inadequately described",
+        "equivalence": "equivalent"
+      }
+      ]
+    }
+    ]
+  }
+  ]
+}          
