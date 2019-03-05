@@ -1,0 +1,84 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "e558d72d-5240-4afe-8174-fe5d8b831b70",
+  "meta": {
+  "versionId": "2",
+  "lastUpdated": "2019-02-28T15:13:28.575+10:00"
+  },
+  "text": {
+  "status": "generated",
+  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>FHIR Administrative Gender to AU Administrative Sex</h2><tt>http://aehrc.com/conceptmap/fhir-gender-au-sex</tt><p>FHIR Administrative Gender to AU Administrative Sex Concept Map</p></div>"
+  },
+  "url": "http://aehrc.com/conceptmap/fhir-gender-au-sex",
+  "version": "0.0.1",
+  "name": "FHIR Administrative Gender to AU Administrative Sex",
+  "status": "draft",
+  "experimental": false,
+  "date": "2019-02-28",
+  "publisher": "AeHRC",
+  "contact": [
+  {
+    "telecom": [
+    {
+      "system": "email"
+    }
+    ]
+  }
+  ],
+  "description": "FHIR Administrative Gender to AU Administrative Sex Concept Map",
+  "sourceUri": "http://hl7.org/fhir/ValueSet/administrative-gender",
+  "targetUri": "http://aehrc.com/valueset/gender",
+  "group": [
+  {
+    "source": "http://hl7.org/fhir/administrative-gender",
+    "target": "http://aehrc.com/codesystem/gender",
+    "element": [
+    {
+      "code": "male",
+      "display": "Male",
+      "target": [
+      {
+        "code": "1",
+        "display": "Male",
+        "equivalence": "equivalent"
+      }
+      ]
+    },
+    {
+      "code": "female",
+      "display": "Female",
+      "target": [
+      {
+        "code": "2",
+        "display": "Female",
+        "equivalence": "equivalent"
+      }
+      ]
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "target": [
+      {
+        "code": "3",
+        "display": "Other",
+        "equivalence": "equivalent"
+      }
+      ]
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "target": [
+      {
+        "code": "9",
+        "display": "Not stated/inadequately described",
+        "equivalence": "inexact",
+        "comment": "Approximate"
+      }
+      ]
+    }
+    ]
+  }
+  ]
+}          

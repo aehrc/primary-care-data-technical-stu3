@@ -30,8 +30,8 @@
           "url": "http://hl7.org.au/fhir/StructureDefinition/ihi-record-status",
           "valueCoding": {
             "system": "https://healthterminologies.gov.au/fhir/CodeSystem/ihi-record-status-1",
-            "code": "Verified",
-            "display": "Verified"
+            "code": "verified",
+            "display": "verified"
           }
         }
       ],

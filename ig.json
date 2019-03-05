@@ -10,6 +10,7 @@
     }],
     "spreadsheets": [],
     "special-urls": [
+		"http://aehrc.com/conceptmap/fhir-gender-au-sex"
     ],
     "extraTemplates": ["mappings"],
     "defaults": {
@@ -92,7 +93,11 @@
         "Observation": {
 		        "template-base": "ex.html",
 		        "template-format": "ex-format.html"
-	      }
+	    }, 
+        "ConceptMap/e558d72d-5240-4afe-8174-fe5d8b831b70": {
+            "base": "CodeSystem-e558d72d-5240-4afe-8174-fe5d8b831b70.html",
+            "defns": "CodeSystem-e558d72d-5240-4afe-8174-fe5d8b831b70.html"
+        }		
 	   },
     "tool": "jekyll",
     "license": "CC-BY-4.0",

@@ -43,6 +43,12 @@
         <reference value="Patient/example0"/>
       </sourceReference>
     </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ConceptMap/e558d72d-5240-4afe-8174-fe5d8b831b70"/>
+      </sourceReference>
+    </resource>
 <!--	
     <resource>
       <example value="false"/>
