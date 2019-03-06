@@ -44,6 +44,13 @@
       </sourceReference>
     </resource>
     <resource>
+      <example value="true"/>
+      <name value="Oridashi Patient 1"/>
+      <sourceReference>
+        <reference value="Patient/B0E0A3ADB59E2F77D6D51ADCA7DAD6B2.35"/>
+      </sourceReference>
+    </resource>	
+    <resource>
       <example value="false"/>
       <sourceReference>
         <reference value="ConceptMap/e558d72d-5240-4afe-8174-fe5d8b831b70"/>
