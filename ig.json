@@ -117,6 +117,10 @@
             "base": "StructureDefinition-au-receivingapplication.html",
             "defns": "StructureDefinition-au-receivingapplication-definitions.html"
         },
+        "StructureDefinition/au-primarycarepatient": {
+            "base": "StructureDefinition-au-primarycarepatient.html",
+            "defns": "StructureDefinition-au-primarycarepatient-definitions.html"
+        },
         "ConceptMap/e558d72d-5240-4afe-8174-fe5d8b831b70": {
             "base": "CodeSystem-e558d72d-5240-4afe-8174-fe5d8b831b70.html",
             "defns": "CodeSystem-e558d72d-5240-4afe-8174-fe5d8b831b70.html"

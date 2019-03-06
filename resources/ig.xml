@@ -69,6 +69,12 @@
         <reference value="ConceptMap/1f8bfdf8-0bb9-4596-80e2-6d50a335e222"/>
       </sourceReference>
     </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/au-primarycarepatient"/>
+      </sourceReference>
+    </resource>
 <!--	
     <resource>
       <example value="false"/>
