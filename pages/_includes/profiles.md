@@ -2,7 +2,7 @@
 
 These Profiles have been defined for this implementation guide.
 
-## XXX Profiles
+## AU Primary Care Profiles
 
-* [XXXX](StructureDefinition-au-receivingapplication.html) - XXX desc 
+* [AU Primary Care Patient](StructureDefinition-au-primarycarepatient.html) - patient demographic with local identifiers and attributes
 

@@ -1,8 +1,8 @@
-**Receiving Application Extension** *[[FMM Level 2](guidance.html)]*
+**AU Primary Care Patient Profile** *[[FMM Level 0](guidance.html)]*
 
-This extension defines a HL7v2 receiving application value for HL7v2 routing purposes associated with an endpoint.
-This content allows a sender using these endpoint details to include Receiving Application (MSH-5) information in HL7v2 messages sent via this channel which allow correct delivery within the receiving system.
+This profile defines a patient administration details structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.
 
-[Endpoint with secure message extensions]Endpoint-example0.html
+[Sample Patient 1](Patient-4E756D076EDCAF7552FFF6CF7B7BB2A1.20.html)
+[Sample Patient 2](Patient-B0E0A3ADB59E2F77D6D51ADCA7DAD6B2.35.html)
 
 
