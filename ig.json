@@ -122,12 +122,12 @@
             "defns": "StructureDefinition-au-primarycarepatient-definitions.html"
         },
         "ConceptMap/e558d72d-5240-4afe-8174-fe5d8b831b70": {
-            "base": "CodeSystem-e558d72d-5240-4afe-8174-fe5d8b831b70.html",
-            "defns": "CodeSystem-e558d72d-5240-4afe-8174-fe5d8b831b70.html"
+            "base": "ConceptMap-e558d72d-5240-4afe-8174-fe5d8b831b70.html",
+            "defns": "ConceptMap-e558d72d-5240-4afe-8174-fe5d8b831b70.html"
         },
         "ConceptMap/1f8bfdf8-0bb9-4596-80e2-6d50a335e222": {
-            "base": "CodeSystem-1f8bfdf8-0bb9-4596-80e2-6d50a335e222.html",
-            "defns": "CodeSystem-1f8bfdf8-0bb9-4596-80e2-6d50a335e222.html"
+            "base": "ConceptMap-1f8bfdf8-0bb9-4596-80e2-6d50a335e222.html",
+            "defns": "ConceptMap-1f8bfdf8-0bb9-4596-80e2-6d50a335e222.html"
         }
     }
 }
