@@ -1,5 +1,7 @@
 # {{ page.title }}
 
+This guide is for practice-to-practice primary care patient record transfer.
+
 ## Maturity Levels 
 These levels used for this Implementation Guide are associated with the [FHIR Maturity Model](http://build.fhir.org/versions.html#maturity) and adjusted for local use.
 
