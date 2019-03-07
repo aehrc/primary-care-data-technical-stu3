@@ -11,7 +11,8 @@
     "spreadsheets": [],
     "special-urls": [
 		"http://aehrc.com/conceptmap/fhir-gender-au-sex",
-		"http://aehrc.com/conceptmap/fhir-marital-status-au-marital-status"
+		"http://aehrc.com/conceptmap/fhir-marital-status-au-marital-status",
+		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCarePatient"
     ],
     "extraTemplates": ["mappings"],
     "defaults": {
@@ -113,10 +114,6 @@
     },
     "npm-name": "hl7.fhir.au.primarycare",
     "resources": {
-        "StructureDefinition/au-receivingapplication": {
-            "base": "StructureDefinition-au-receivingapplication.html",
-            "defns": "StructureDefinition-au-receivingapplication-definitions.html"
-        },
         "StructureDefinition/au-primarycarepatient": {
             "base": "StructureDefinition-au-primarycarepatient.html",
             "defns": "StructureDefinition-au-primarycarepatient-definitions.html"
