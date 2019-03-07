@@ -29,12 +29,6 @@
   <package>
     <name value="base"/>	
     <resource>
-      <example value="false"/>
-      <sourceReference>
-        <reference value="StructureDefinition/au-receivingapplication"/>
-      </sourceReference>
-    </resource>
-    <resource>
       <example value="true"/>
       <name value="Patient with IHI and Medicare Number"/>
       <description
