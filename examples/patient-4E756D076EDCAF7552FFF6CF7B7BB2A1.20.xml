@@ -13,14 +13,14 @@
         </div>
     </text>
     <extension url="http://oridashi.com.au/fhir/StructureDefinition/patient-ethnicity">
-    <!--    <valueCodeableConcept>
+        <valueCodeableConcept>
             <coding>
                 <system value="http://www.abs.gov.au/ausstats/abs@.nsf/mf/1249.0" />
                 <code value="1201" />
                 <display value="Maori" />
             </coding>
             <text value="Maori" />
-        </valueCodeableConcept>-->
+        </valueCodeableConcept>
     </extension>
     <extension url="http://hl7.org.au/fhir/StructureDefinition/indigenous-status">
         <valueCoding>
@@ -30,6 +30,10 @@
         </valueCoding>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/birthPlace">
+		<valueAddress>
+			<country value="NZ"/>
+		</valueAddress>
+	<!--
         <valueCodeableConcept>
             <coding>
                 <system value="http://www.abs.gov.au/ausstats/abs@.nsf/mf/1269.0" />
@@ -38,6 +42,7 @@
             </coding>
             <text value="New Zealand" />
         </valueCodeableConcept>
+		-->
     </extension>
     <identifier>
         <use value="usual" />
