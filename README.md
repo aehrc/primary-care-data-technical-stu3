@@ -10,6 +10,6 @@ We have a modified version of the IG Publisher jar that allows you to specify an
 
 Example usage:
 
-java -jar org.hl7.fhir.igpublisher.ontoserver.jar -ig <directory containging ig.json control file>\ig.json" -tx https://ontoserver.csiro.au/stu3-latest
+java -jar org.hl7.fhir.igpublisher.ontoserver.jar -ig <directory containging ig.json control file>/ig.json" -tx https://primarycare.ontoserver.csiro.au/fhir
 
 
