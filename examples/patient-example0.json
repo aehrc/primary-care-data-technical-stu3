@@ -1,6 +1,9 @@
 {
   "resourceType": "Patient",
   "id": "example0",
+  "meta": {
+    "profile": ["https://aehrc.com/fhir/StructureDefinition/AUPrimaryCarePatient"]
+  },
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: example0</p><p><b>identifier</b>: IHI = 8003608166690503, Medicare Number = 32788511952, Health Care Card Number = 307111942H</p><p><b>name</b>: Stella Franklin </p><p><b>telecom</b>: sfranklin@amail.com.au(WORK)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: Oct 14, 1985</p><p><b>address</b>: 31 Pacquola Street Blacktown NSW 2148 Australia (HOME)</p></div>"
