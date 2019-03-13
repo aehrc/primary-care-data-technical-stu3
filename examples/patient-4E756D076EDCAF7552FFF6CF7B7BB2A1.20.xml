@@ -5,6 +5,7 @@
     <meta>
         <versionId value="20180903231855" />
         <lastUpdated value="2018-09-03T23:18:55.597+00:00" />
+        <profile value="https://aehrc.com/fhir/StructureDefinition/AUPrimaryCarePatient"/>
     </meta>
     <text>
         <status value="generated" />
