@@ -1,0 +1,1365 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "au-ethnicity",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2019-03-14T10:53:41.680+10:00"
+    },
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Australian Standard Classification of Cultural and Ethnic Groups</h2><tt>http://healthterminologies.gov.au/fhir/CodeSystem/ascceg-2016</tt><p>Australian Standard Classification of Cultural and Ethnic Groups (ASCCEG), 2016.\nPublished by Australian Bureau of Statistics as 1249.0 - Australian Standard Classification of Cultural and Ethnic Groups (ASCCEG), 2016  \nPublished by Australian Institute of Health and Welfare as METeOR identifier 689474</p></div>"
+    },
+    "url": "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1249.0",
+    "version": "2016",
+    "name": "Australian Standard Classification of Cultural and Ethnic Groups",
+    "status": "draft",
+    "experimental": false,
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "email"
+                }
+            ]
+        }
+    ],
+    "description": "Australian Standard Classification of Cultural and Ethnic Groups (ASCCEG), 2016.\nPublished by Australian Bureau of Statistics as 1249.0 - Australian Standard Classification of Cultural and Ethnic Groups (ASCCEG), 2016  \nPublished by Australian Institute of Health and Welfare as METeOR identifier 689474",
+    "caseSensitive": false,
+    "valueSet": "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1249.0/vs",
+    "hierarchyMeaning": "classified-with",
+    "compositional": false,
+    "content": "complete",
+    "count": 315,
+    "concept": [
+        {
+            "code": "1",
+            "display": "OCEANIAN",
+            "concept": [
+                {
+                    "code": "11",
+                    "display": "Australian Peoples",
+                    "concept": [
+                        {
+                            "code": "1101",
+                            "display": "Australian"
+                        },
+                        {
+                            "code": "1102",
+                            "display": "Australian Aboriginal"
+                        },
+                        {
+                            "code": "1103",
+                            "display": "Australian South Sea Islander"
+                        },
+                        {
+                            "code": "1104",
+                            "display": "Torres Strait Islander"
+                        }
+                    ]
+                },
+                {
+                    "code": "12",
+                    "display": "New Zealand Peoples",
+                    "concept": [
+                        {
+                            "code": "1201",
+                            "display": "Maori"
+                        },
+                        {
+                            "code": "1202",
+                            "display": "New Zealander"
+                        }
+                    ]
+                },
+                {
+                    "code": "13",
+                    "display": "Melanesian and Papuan",
+                    "concept": [
+                        {
+                            "code": "1301",
+                            "display": "New Caledonian"
+                        },
+                        {
+                            "code": "1302",
+                            "display": "Ni-Vanuatu"
+                        },
+                        {
+                            "code": "1303",
+                            "display": "Papua New Guinean"
+                        },
+                        {
+                            "code": "1304",
+                            "display": "Solomon Islander"
+                        },
+                        {
+                            "code": "1399",
+                            "display": "Melanesian and Papuan, nec"
+                        }
+                    ]
+                },
+                {
+                    "code": "14",
+                    "display": "Micronesian",
+                    "concept": [
+                        {
+                            "code": "1401",
+                            "display": "I-Kiribati"
+                        },
+                        {
+                            "code": "1402",
+                            "display": "Nauruan"
+                        },
+                        {
+                            "code": "1499",
+                            "display": "Micronesian, nec"
+                        }
+                    ]
+                },
+                {
+                    "code": "15",
+                    "display": "Polynesian",
+                    "concept": [
+                        {
+                            "code": "1501",
+                            "display": "Cook Islander"
+                        },
+                        {
+                            "code": "1502",
+                            "display": "Fijian"
+                        },
+                        {
+                            "code": "1503",
+                            "display": "Niuean"
+                        },
+                        {
+                            "code": "1504",
+                            "display": "Samoan"
+                        },
+                        {
+                            "code": "1505",
+                            "display": "Tongan"
+                        },
+                        {
+                            "code": "1506",
+                            "display": "Hawaiian"
+                        },
+                        {
+                            "code": "1507",
+                            "display": "Tahitian"
+                        },
+                        {
+                            "code": "1508",
+                            "display": "Tokelauan"
+                        },
+                        {
+                            "code": "1511",
+                            "display": "Tuvaluan"
+                        },
+                        {
+                            "code": "1512",
+                            "display": "Pitcairn"
+                        },
+                        {
+                            "code": "1599",
+                            "display": "Polynesian, nec"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "2",
+            "display": "NORTH-WEST EUROPEAN",
+            "concept": [
+                {
+                    "code": "21",
+                    "display": "British",
+                    "concept": [
+                        {
+                            "code": "2101",
+                            "display": "English"
+                        },
+                        {
+                            "code": "2102",
+                            "display": "Scottish"
+                        },
+                        {
+                            "code": "2103",
+                            "display": "Welsh"
+                        },
+                        {
+                            "code": "2104",
+                            "display": "Channel Islander"
+                        },
+                        {
+                            "code": "2105",
+                            "display": "Manx"
+                        },
+                        {
+                            "code": "2199",
+                            "display": "British, nec"
+                        }
+                    ]
+                },
+                {
+                    "code": "22",
+                    "display": "Irish",
+                    "concept": [
+                        {
+                            "code": "2201",
+                            "display": "Irish"
+                        }
+                    ]
+                },
+                {
+                    "code": "23",
+                    "display": "Western European",
+                    "concept": [
+                        {
+                            "code": "2301",
+                            "display": "Austrian"
+                        },
+                        {
+                            "code": "2303",
+                            "display": "Dutch"
+                        },
+                        {
+                            "code": "2304",
+                            "display": "Flemish"
+                        },
+                        {
+                            "code": "2305",
+                            "display": "French"
+                        },
+                        {
+                            "code": "2306",
+                            "display": "German"
+                        },
+                        {
+                            "code": "2307",
+                            "display": "Swiss"
+                        },
+                        {
+                            "code": "2311",
+                            "display": "Belgian"
+                        },
+                        {
+                            "code": "2312",
+                            "display": "Frisian"
+                        },
+                        {
+                            "code": "2313",
+                            "display": "Luxembourg"
+                        },
+                        {
+                            "code": "2399",
+                            "display": "Western European, nec"
+                        }
+                    ]
+                },
+                {
+                    "code": "24",
+                    "display": "Northern European",
+                    "concept": [
+                        {
+                            "code": "2401",
+                            "display": "Danish"
+                        },
+                        {
+                            "code": "2402",
+                            "display": "Finnish"
+                        },
+                        {
+                            "code": "2403",
+                            "display": "Icelandic"
+                        },
+                        {
+                            "code": "2404",
+                            "display": "Norwegian"
+                        },
+                        {
+                            "code": "2405",
+                            "display": "Swedish"
+                        },
+                        {
+                            "code": "2499",
+                            "display": "Northern European, nec"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "3",
+            "display": "SOUTHERN AND EASTERN EUROPEAN",
+            "concept": [
+                {
+                    "code": "31",
+                    "display": "Southern European",
+                    "concept": [
+                        {
+                            "code": "3101",
+                            "display": "Basque"
+                        },
+                        {
+                            "code": "3102",
+                            "display": "Catalan"
+                        },
+                        {
+                            "code": "3103",
+                            "display": "Italian"
+                        },
+                        {
+                            "code": "3104",
+                            "display": "Maltese"
+                        },
+                        {
+                            "code": "3105",
+                            "display": "Portuguese"
+                        },
+                        {
+                            "code": "3106",
+                            "display": "Spanish"
+                        },
+                        {
+                            "code": "3107",
+                            "display": "Gibraltarian"
+                        },
+                        {
+                            "code": "3199",
+                            "display": "Southern European, nec"
+                        }
+                    ]
+                },
+                {
+                    "code": "32",
+                    "display": "South Eastern European",
+                    "concept": [
+                        {
+                            "code": "3201",
+                            "display": "Albanian"
+                        },
+                        {
+                            "code": "3202",
+                            "display": "Bosnian"
+                        },
+                        {
+                            "code": "3203",
+                            "display": "Bulgarian"
+                        },
+                        {
+                            "code": "3204",
+                            "display": "Croatian"
+                        },
+                        {
+                            "code": "3205",
+                            "display": "Greek"
+                        },
+                        {
+                            "code": "3206",
+                            "display": "Macedonian"
+                        },
+                        {
+                            "code": "3207",
+                            "display": "Moldovan"
+                        },
+                        {
+                            "code": "3208",
+                            "display": "Montenegrin"
+                        },
+                        {
+                            "code": "3211",
+                            "display": "Romanian"
+                        },
+                        {
+                            "code": "3212",
+                            "display": "Roma Gypsy"
+                        },
+                        {
+                            "code": "3213",
+                            "display": "Serbian"
+                        },
+                        {
+                            "code": "3214",
+                            "display": "Slovene"
+                        },
+                        {
+                            "code": "3215",
+                            "display": "Cypriot"
+                        },
+                        {
+                            "code": "3216",
+                            "display": "Vlach"
+                        },
+                        {
+                            "code": "3299",
+                            "display": "South Eastern European, nec"
+                        }
+                    ]
+                },
+                {
+                    "code": "33",
+                    "display": "Eastern European",
+                    "concept": [
+                        {
+                            "code": "3301",
+                            "display": "Belarusan"
+                        },
+                        {
+                            "code": "3302",
+                            "display": "Czech"
+                        },
+                        {
+                            "code": "3303",
+                            "display": "Estonian"
+                        },
+                        {
+                            "code": "3304",
+                            "display": "Hungarian"
+                        },
+                        {
+                            "code": "3305",
+                            "display": "Latvian"
+                        },
+                        {
+                            "code": "3306",
+                            "display": "Lithuanian"
+                        },
+                        {
+                            "code": "3307",
+                            "display": "Polish"
+                        },
+                        {
+                            "code": "3308",
+                            "display": "Russian"
+                        },
+                        {
+                            "code": "3311",
+                            "display": "Slovak"
+                        },
+                        {
+                            "code": "3312",
+                            "display": "Ukrainian"
+                        },
+                        {
+                            "code": "3313",
+                            "display": "Sorb/Wend"
+                        },
+                        {
+                            "code": "3399",
+                            "display": "Eastern European, nec"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "4",
+            "display": "NORTH AFRICAN AND MIDDLE EASTERN",
+            "concept": [
+                {
+                    "code": "41",
+                    "display": "Arab",
+                    "concept": [
+                        {
+                            "code": "4101",
+                            "display": "Algerian"
+                        },
+                        {
+                            "code": "4102",
+                            "display": "Egyptian"
+                        },
+                        {
+                            "code": "4103",
+                            "display": "Iraqi"
+                        },
+                        {
+                            "code": "4104",
+                            "display": "Jordanian"
+                        },
+                        {
+                            "code": "4105",
+                            "display": "Kuwaiti"
+                        },
+                        {
+                            "code": "4106",
+                            "display": "Lebanese"
+                        },
+                        {
+                            "code": "4107",
+                            "display": "Libyan"
+                        },
+                        {
+                            "code": "4108",
+                            "display": "Moroccan"
+                        },
+                        {
+                            "code": "4111",
+                            "display": "Palestinian"
+                        },
+                        {
+                            "code": "4112",
+                            "display": "Saudi Arabian"
+                        },
+                        {
+                            "code": "4113",
+                            "display": "Syrian"
+                        },
+                        {
+                            "code": "4114",
+                            "display": "Tunisian"
+                        },
+                        {
+                            "code": "4115",
+                            "display": "Yemeni"
+                        },
+                        {
+                            "code": "4116",
+                            "display": "Bahraini"
+                        },
+                        {
+                            "code": "4117",
+                            "display": "Emirati"
+                        },
+                        {
+                            "code": "4118",
+                            "display": "Omani"
+                        },
+                        {
+                            "code": "4121",
+                            "display": "Qatari"
+                        },
+                        {
+                            "code": "4199",
+                            "display": "Arab, nec"
+                        }
+                    ]
+                },
+                {
+                    "code": "42",
+                    "display": "Jewish",
+                    "concept": [
+                        {
+                            "code": "4201",
+                            "display": "Jewish"
+                        }
+                    ]
+                },
+                {
+                    "code": "43",
+                    "display": "Peoples of the Sudan",
+                    "concept": [
+                        {
+                            "code": "4301",
+                            "display": "Bari"
+                        },
+                        {
+                            "code": "4302",
+                            "display": "Darfur"
+                        },
+                        {
+                            "code": "4303",
+                            "display": "Dinka"
+                        },
+                        {
+                            "code": "4304",
+                            "display": "Nuer"
+                        },
+                        {
+                            "code": "4305",
+                            "display": "South Sudanese"
+                        },
+                        {
+                            "code": "4306",
+                            "display": "Sudanese"
+                        },
+                        {
+                            "code": "4399",
+                            "display": "Peoples of the Sudan, nec"
+                        }
+                    ]
+                },
+                {
+                    "code": "49",
+                    "display": "Other North African and Middle Eastern",
+                    "concept": [
+                        {
+                            "code": "4902",
+                            "display": "Berber"
+                        },
+                        {
+                            "code": "4903",
+                            "display": "Coptic"
+                        },
+                        {
+                            "code": "4904",
+                            "display": "Iranian"
+                        },
+                        {
+                            "code": "4905",
+                            "display": "Kurdish"
+                        },
+                        {
+                            "code": "4907",
+                            "display": "Turkish"
+                        },
+                        {
+                            "code": "4908",
+                            "display": "Assyrian"
+                        },
+                        {
+                            "code": "4911",
+                            "display": "Chaldean"
+                        },
+                        {
+                            "code": "4912",
+                            "display": "Mandaean"
+                        },
+                        {
+                            "code": "4913",
+                            "display": "Nubian"
+                        },
+                        {
+                            "code": "4914",
+                            "display": "Yezidi"
+                        },
+                        {
+                            "code": "4999",
+                            "display": "Other North African and Middle Eastern, nec"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "5",
+            "display": "SOUTH-EAST ASIAN",
+            "concept": [
+                {
+                    "code": "51",
+                    "display": "Mainland South-East Asian",
+                    "concept": [
+                        {
+                            "code": "5101",
+                            "display": "Anglo-Burmese"
+                        },
+                        {
+                            "code": "5102",
+                            "display": "Burmese"
+                        },
+                        {
+                            "code": "5103",
+                            "display": "Hmong"
+                        },
+                        {
+                            "code": "5104",
+                            "display": "Khmer (Cambodian)"
+                        },
+                        {
+                            "code": "5105",
+                            "display": "Lao"
+                        },
+                        {
+                            "code": "5106",
+                            "display": "Thai"
+                        },
+                        {
+                            "code": "5107",
+                            "display": "Vietnamese"
+                        },
+                        {
+                            "code": "5108",
+                            "display": "Karen"
+                        },
+                        {
+                            "code": "5111",
+                            "display": "Mon"
+                        },
+                        {
+                            "code": "5112",
+                            "display": "Chin"
+                        },
+                        {
+                            "code": "5113",
+                            "display": "Rohingya"
+                        },
+                        {
+                            "code": "5199",
+                            "display": "Mainland South-East Asian, nec"
+                        }
+                    ]
+                },
+                {
+                    "code": "52",
+                    "display": "Maritime South-East Asian",
+                    "concept": [
+                        {
+                            "code": "5201",
+                            "display": "Filipino"
+                        },
+                        {
+                            "code": "5202",
+                            "display": "Indonesian"
+                        },
+                        {
+                            "code": "5203",
+                            "display": "Javanese"
+                        },
+                        {
+                            "code": "5204",
+                            "display": "Madurese"
+                        },
+                        {
+                            "code": "5205",
+                            "display": "Malay"
+                        },
+                        {
+                            "code": "5206",
+                            "display": "Sundanese"
+                        },
+                        {
+                            "code": "5207",
+                            "display": "Timorese"
+                        },
+                        {
+                            "code": "5208",
+                            "display": "Acehnese"
+                        },
+                        {
+                            "code": "5211",
+                            "display": "Balinese"
+                        },
+                        {
+                            "code": "5212",
+                            "display": "Bruneian"
+                        },
+                        {
+                            "code": "5213",
+                            "display": "Kadazan"
+                        },
+                        {
+                            "code": "5214",
+                            "display": "Singaporean"
+                        },
+                        {
+                            "code": "5215",
+                            "display": "Temoq"
+                        },
+                        {
+                            "code": "5299",
+                            "display": "Maritime South-East Asian, nec"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "6",
+            "display": "NORTH-EAST ASIAN",
+            "concept": [
+                {
+                    "code": "61",
+                    "display": "Chinese Asian",
+                    "concept": [
+                        {
+                            "code": "6101",
+                            "display": "Chinese"
+                        },
+                        {
+                            "code": "6102",
+                            "display": "Taiwanese"
+                        },
+                        {
+                            "code": "6199",
+                            "display": "Chinese Asian, nec"
+                        }
+                    ]
+                },
+                {
+                    "code": "69",
+                    "display": "Other North-East Asian",
+                    "concept": [
+                        {
+                            "code": "6901",
+                            "display": "Japanese"
+                        },
+                        {
+                            "code": "6902",
+                            "display": "Korean"
+                        },
+                        {
+                            "code": "6903",
+                            "display": "Mongolian"
+                        },
+                        {
+                            "code": "6904",
+                            "display": "Tibetan"
+                        },
+                        {
+                            "code": "6999",
+                            "display": "Other North-East Asian, nec"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "7",
+            "display": "SOUTHERN AND CENTRAL ASIAN",
+            "concept": [
+                {
+                    "code": "71",
+                    "display": "Southern Asian",
+                    "concept": [
+                        {
+                            "code": "7101",
+                            "display": "Anglo-Indian"
+                        },
+                        {
+                            "code": "7102",
+                            "display": "Bengali"
+                        },
+                        {
+                            "code": "7103",
+                            "display": "Burgher"
+                        },
+                        {
+                            "code": "7104",
+                            "display": "Gujarati"
+                        },
+                        {
+                            "code": "7106",
+                            "display": "Indian"
+                        },
+                        {
+                            "code": "7107",
+                            "display": "Malayali"
+                        },
+                        {
+                            "code": "7111",
+                            "display": "Nepalese"
+                        },
+                        {
+                            "code": "7112",
+                            "display": "Pakistani"
+                        },
+                        {
+                            "code": "7113",
+                            "display": "Punjabi"
+                        },
+                        {
+                            "code": "7114",
+                            "display": "Sikh"
+                        },
+                        {
+                            "code": "7115",
+                            "display": "Sinhalese"
+                        },
+                        {
+                            "code": "7117",
+                            "display": "Maldivian"
+                        },
+                        {
+                            "code": "7118",
+                            "display": "Bangladeshi"
+                        },
+                        {
+                            "code": "7121",
+                            "display": "Bhutanese"
+                        },
+                        {
+                            "code": "7122",
+                            "display": "Fijian Indian"
+                        },
+                        {
+                            "code": "7123",
+                            "display": "Kashmiri"
+                        },
+                        {
+                            "code": "7124",
+                            "display": "Parsi"
+                        },
+                        {
+                            "code": "7125",
+                            "display": "Sindhi"
+                        },
+                        {
+                            "code": "7126",
+                            "display": "Sri Lankan"
+                        },
+                        {
+                            "code": "7127",
+                            "display": "Sri Lankan Tamil"
+                        },
+                        {
+                            "code": "7128",
+                            "display": "Indian Tamil"
+                        },
+                        {
+                            "code": "7131",
+                            "display": "Tamil, nfd"
+                        },
+                        {
+                            "code": "7132",
+                            "display": "Telugu"
+                        },
+                        {
+                            "code": "7199",
+                            "display": "Southern Asian, nec"
+                        }
+                    ]
+                },
+                {
+                    "code": "72",
+                    "display": "Central Asian",
+                    "concept": [
+                        {
+                            "code": "7201",
+                            "display": "Afghan"
+                        },
+                        {
+                            "code": "7202",
+                            "display": "Armenian"
+                        },
+                        {
+                            "code": "7203",
+                            "display": "Georgian"
+                        },
+                        {
+                            "code": "7204",
+                            "display": "Kazakh"
+                        },
+                        {
+                            "code": "7205",
+                            "display": "Pathan"
+                        },
+                        {
+                            "code": "7206",
+                            "display": "Uzbek"
+                        },
+                        {
+                            "code": "7207",
+                            "display": "Azeri"
+                        },
+                        {
+                            "code": "7208",
+                            "display": "Hazara"
+                        },
+                        {
+                            "code": "7211",
+                            "display": "Tajik"
+                        },
+                        {
+                            "code": "7212",
+                            "display": "Tatar"
+                        },
+                        {
+                            "code": "7213",
+                            "display": "Turkmen"
+                        },
+                        {
+                            "code": "7214",
+                            "display": "Uighur"
+                        },
+                        {
+                            "code": "7215",
+                            "display": "Kyrgyz"
+                        },
+                        {
+                            "code": "7299",
+                            "display": "Central Asian, nec"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "8",
+            "display": "PEOPLES OF THE AMERICAS",
+            "concept": [
+                {
+                    "code": "81",
+                    "display": "North American",
+                    "concept": [
+                        {
+                            "code": "8101",
+                            "display": "African American"
+                        },
+                        {
+                            "code": "8102",
+                            "display": "American"
+                        },
+                        {
+                            "code": "8103",
+                            "display": "Canadian"
+                        },
+                        {
+                            "code": "8104",
+                            "display": "French Canadian"
+                        },
+                        {
+                            "code": "8105",
+                            "display": "Hispanic North American"
+                        },
+                        {
+                            "code": "8106",
+                            "display": "Native North American Indian"
+                        },
+                        {
+                            "code": "8107",
+                            "display": "Bermudan"
+                        },
+                        {
+                            "code": "8199",
+                            "display": "North American, nec"
+                        }
+                    ]
+                },
+                {
+                    "code": "82",
+                    "display": "South American",
+                    "concept": [
+                        {
+                            "code": "8201",
+                            "display": "Argentinian"
+                        },
+                        {
+                            "code": "8202",
+                            "display": "Bolivian"
+                        },
+                        {
+                            "code": "8203",
+                            "display": "Brazilian"
+                        },
+                        {
+                            "code": "8204",
+                            "display": "Chilean"
+                        },
+                        {
+                            "code": "8205",
+                            "display": "Colombian"
+                        },
+                        {
+                            "code": "8206",
+                            "display": "Ecuadorian"
+                        },
+                        {
+                            "code": "8207",
+                            "display": "Guyanese"
+                        },
+                        {
+                            "code": "8208",
+                            "display": "Peruvian"
+                        },
+                        {
+                            "code": "8211",
+                            "display": "Uruguayan"
+                        },
+                        {
+                            "code": "8212",
+                            "display": "Venezuelan"
+                        },
+                        {
+                            "code": "8213",
+                            "display": "Paraguayan"
+                        },
+                        {
+                            "code": "8299",
+                            "display": "South American, nec"
+                        }
+                    ]
+                },
+                {
+                    "code": "83",
+                    "display": "Central American",
+                    "concept": [
+                        {
+                            "code": "8301",
+                            "display": "Mexican"
+                        },
+                        {
+                            "code": "8302",
+                            "display": "Nicaraguan"
+                        },
+                        {
+                            "code": "8303",
+                            "display": "Salvadoran"
+                        },
+                        {
+                            "code": "8304",
+                            "display": "Costa Rican"
+                        },
+                        {
+                            "code": "8305",
+                            "display": "Guatemalan"
+                        },
+                        {
+                            "code": "8306",
+                            "display": "Mayan"
+                        },
+                        {
+                            "code": "8399",
+                            "display": "Central American, nec"
+                        }
+                    ]
+                },
+                {
+                    "code": "84",
+                    "display": "Caribbean Islander",
+                    "concept": [
+                        {
+                            "code": "8401",
+                            "display": "Cuban"
+                        },
+                        {
+                            "code": "8402",
+                            "display": "Jamaican"
+                        },
+                        {
+                            "code": "8403",
+                            "display": "Trinidadian Tobagonian"
+                        },
+                        {
+                            "code": "8404",
+                            "display": "Barbadian"
+                        },
+                        {
+                            "code": "8405",
+                            "display": "Puerto Rican"
+                        },
+                        {
+                            "code": "8499",
+                            "display": "Caribbean Islander, nec"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "9",
+            "display": "SUB-SAHARAN AFRICAN",
+            "concept": [
+                {
+                    "code": "91",
+                    "display": "Central and West African",
+                    "concept": [
+                        {
+                            "code": "9101",
+                            "display": "Akan"
+                        },
+                        {
+                            "code": "9102",
+                            "display": "Fulani"
+                        },
+                        {
+                            "code": "9103",
+                            "display": "Ghanaian"
+                        },
+                        {
+                            "code": "9104",
+                            "display": "Nigerian"
+                        },
+                        {
+                            "code": "9105",
+                            "display": "Yoruba"
+                        },
+                        {
+                            "code": "9106",
+                            "display": "Ivorean"
+                        },
+                        {
+                            "code": "9107",
+                            "display": "Liberian"
+                        },
+                        {
+                            "code": "9108",
+                            "display": "Sierra Leonean"
+                        },
+                        {
+                            "code": "9111",
+                            "display": "Acholi"
+                        },
+                        {
+                            "code": "9112",
+                            "display": "Cameroonian"
+                        },
+                        {
+                            "code": "9113",
+                            "display": "Congolese"
+                        },
+                        {
+                            "code": "9114",
+                            "display": "Gio"
+                        },
+                        {
+                            "code": "9115",
+                            "display": "Igbo"
+                        },
+                        {
+                            "code": "9116",
+                            "display": "Krahn"
+                        },
+                        {
+                            "code": "9117",
+                            "display": "Mandinka"
+                        },
+                        {
+                            "code": "9118",
+                            "display": "Senegalese"
+                        },
+                        {
+                            "code": "9121",
+                            "display": "Themne"
+                        },
+                        {
+                            "code": "9122",
+                            "display": "Togolese"
+                        },
+                        {
+                            "code": "9199",
+                            "display": "Central and West African, nec"
+                        }
+                    ]
+                },
+                {
+                    "code": "92",
+                    "display": "Southern and East African",
+                    "concept": [
+                        {
+                            "code": "9201",
+                            "display": "Afrikaner"
+                        },
+                        {
+                            "code": "9202",
+                            "display": "Angolan"
+                        },
+                        {
+                            "code": "9203",
+                            "display": "Eritrean"
+                        },
+                        {
+                            "code": "9204",
+                            "display": "Ethiopian"
+                        },
+                        {
+                            "code": "9205",
+                            "display": "Kenyan"
+                        },
+                        {
+                            "code": "9206",
+                            "display": "Malawian"
+                        },
+                        {
+                            "code": "9207",
+                            "display": "Mauritian"
+                        },
+                        {
+                            "code": "9208",
+                            "display": "Mozambican"
+                        },
+                        {
+                            "code": "9211",
+                            "display": "Namibian"
+                        },
+                        {
+                            "code": "9212",
+                            "display": "Oromo"
+                        },
+                        {
+                            "code": "9213",
+                            "display": "Seychellois"
+                        },
+                        {
+                            "code": "9214",
+                            "display": "Somali"
+                        },
+                        {
+                            "code": "9215",
+                            "display": "South African"
+                        },
+                        {
+                            "code": "9216",
+                            "display": "Tanzanian"
+                        },
+                        {
+                            "code": "9217",
+                            "display": "Ugandan"
+                        },
+                        {
+                            "code": "9218",
+                            "display": "Zambian"
+                        },
+                        {
+                            "code": "9221",
+                            "display": "Zimbabwean"
+                        },
+                        {
+                            "code": "9222",
+                            "display": "Amhara"
+                        },
+                        {
+                            "code": "9223",
+                            "display": "Batswana"
+                        },
+                        {
+                            "code": "9225",
+                            "display": "Hutu"
+                        },
+                        {
+                            "code": "9226",
+                            "display": "Masai"
+                        },
+                        {
+                            "code": "9228",
+                            "display": "Tigrayan"
+                        },
+                        {
+                            "code": "9231",
+                            "display": "Tigre"
+                        },
+                        {
+                            "code": "9232",
+                            "display": "Zulu"
+                        },
+                        {
+                            "code": "9233",
+                            "display": "Burundian"
+                        },
+                        {
+                            "code": "9234",
+                            "display": "Kunama"
+                        },
+                        {
+                            "code": "9235",
+                            "display": "Madi"
+                        },
+                        {
+                            "code": "9236",
+                            "display": "Ogaden"
+                        },
+                        {
+                            "code": "9237",
+                            "display": "Rwandan"
+                        },
+                        {
+                            "code": "9238",
+                            "display": "Shona"
+                        },
+                        {
+                            "code": "9241",
+                            "display": "Swahili"
+                        },
+                        {
+                            "code": "9242",
+                            "display": "Swazilander"
+                        },
+                        {
+                            "code": "9299",
+                            "display": "Southern and East African, nec"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
