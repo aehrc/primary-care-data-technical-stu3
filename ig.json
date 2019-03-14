@@ -12,7 +12,12 @@
     "special-urls": [
 		"http://aehrc.com/conceptmap/fhir-gender-au-sex",
 		"http://aehrc.com/conceptmap/fhir-marital-status-au-marital-status",
-		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCarePatient"
+		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCarePatient",
+                "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1249.0",
+                "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1249.0/vs",
+                "http://hl7.org.au/fhir/StructureDefinition/au-ethnicity",
+                "https://healthterminologies.gov.au/fhir/ValueSet/ihi-record-status-1",
+                "https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1"
     ],
     "extraTemplates": ["mappings"],
     "defaults": {
@@ -120,11 +125,23 @@
         },
         "ConceptMap/e558d72d-5240-4afe-8174-fe5d8b831b70": {
             "base": "ConceptMap-e558d72d-5240-4afe-8174-fe5d8b831b70.html",
-            "defns": "ConceptMap-e558d72d-5240-4afe-8174-fe5d8b831b70.html"
+            "defns": "ConceptMap-e558d72d-5240-4afe-8174-fe5d8b831b70-definitions.html"
         },
         "ConceptMap/1f8bfdf8-0bb9-4596-80e2-6d50a335e222": {
             "base": "ConceptMap-1f8bfdf8-0bb9-4596-80e2-6d50a335e222.html",
-            "defns": "ConceptMap-1f8bfdf8-0bb9-4596-80e2-6d50a335e222.html"
+            "defns": "ConceptMap-1f8bfdf8-0bb9-4596-80e2-6d50a335e222-definitions.html"
+        },
+        "CodeSystem/au-ethnicity": {
+            "base": "CodeSystem-au-ethnicity.html",
+            "defns": "CodeSystem-au-ethnicity-definitions.html"
+        },
+        "ValueSet/au-ethnicity": {
+            "base": "ValueSet-au-ethnicity.html",
+            "defns": "ValueSet-au-ethnicity-definitions.html"
+        },
+        "StructureDefinition/au-ethnicity": {
+            "base": "StructureDefinition-au-ethnicity.html",
+            "defns": "StructureDefinition-au-ethnicity-definitions.html"
         }
     }
 }

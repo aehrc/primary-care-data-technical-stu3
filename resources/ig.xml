@@ -69,6 +69,24 @@
         <reference value="StructureDefinition/au-primarycarepatient"/>
       </sourceReference>
     </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="CodeSystem/au-ethnicity"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/au-ethnicity"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/au-ethnicity"/>
+      </sourceReference>
+    </resource>
 <!--	
     <resource>
       <example value="false"/>
