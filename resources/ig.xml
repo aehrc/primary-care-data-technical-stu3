@@ -69,6 +69,18 @@
         <reference value="StructureDefinition/au-primarycarepatient"/>
       </sourceReference>
     </resource>
+   <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/au-primarycareallergyintolerance"/>
+      </sourceReference>
+    </resource>
+   <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/au-primarycaremedication"/>
+      </sourceReference>
+    </resource>
     <resource>
       <example value="false"/>
       <sourceReference>

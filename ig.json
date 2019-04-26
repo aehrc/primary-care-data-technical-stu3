@@ -123,6 +123,14 @@
             "base": "StructureDefinition-au-primarycarepatient.html",
             "defns": "StructureDefinition-au-primarycarepatient-definitions.html"
         },
+        "StructureDefinition/au-primarycareallergyintolerance": {
+            "base": "StructureDefinition-au-primarycareallergyintolerance.html",
+            "defns": "StructureDefinition-au-primarycareallergyintolerance-definitions.html"
+        },
+        "StructureDefinition/au-primarycaremedication": {
+            "base": "StructureDefinition-au-primarycaremedication.html",
+            "defns": "StructureDefinition-au-primarycaremedication-definitions.html"
+        },
         "ConceptMap/e558d72d-5240-4afe-8174-fe5d8b831b70": {
             "base": "ConceptMap-e558d72d-5240-4afe-8174-fe5d8b831b70.html",
             "defns": "ConceptMap-e558d72d-5240-4afe-8174-fe5d8b831b70-definitions.html"

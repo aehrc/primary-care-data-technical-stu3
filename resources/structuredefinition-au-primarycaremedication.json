@@ -1,0 +1,33 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "au-primarycaremedication",
+  "url": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedication",
+  "version": "0.0.1",
+  "name": "AUPrimaryCareMedication",
+  "title": "AU Primary Care Medication",
+  "status": "draft",
+  "experimental": false,
+  "description": "This profile defines a medication structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.",
+  "purpose": "This profile defines a medication structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.",
+  "fhirVersion": "3.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Medication",
+  "baseDefinition": "http://hl7.org.au/fhir/StructureDefinition/au-medication",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Medication.extension:pbsSponsor",
+        "path": "Medication.extension",
+        "sliceName": "pbsSponsor",
+        "max": "0"
+      },
+      {
+        "id": "Medication.image",
+        "path": "Medication.image",
+        "max": "0"
+      }
+    ]
+  }
+}
