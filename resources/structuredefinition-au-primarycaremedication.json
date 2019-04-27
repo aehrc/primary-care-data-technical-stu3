@@ -24,6 +24,52 @@
         "max": "0"
       },
       {
+        "id": "Medication.extension:strengthText",
+        "path": "Medication.extension",
+        "sliceName": "strengthText"
+      },
+      {
+        "id": "Medication.extension:strengthText.value[x]:valueQuantity",
+        "path": "Medication.extension.valueQuantity",
+        "sliceName": "valueQuantity",
+        "min": 1,
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Medication.status",
+        "path": "Medication.status",
+        "max": "0"
+      },
+      {
+        "id": "Medication.isBrand",
+        "path": "Medication.isBrand",
+        "max": "0"
+      },
+      {
+        "id": "Medication.isOverTheCounter",
+        "path": "Medication.isOverTheCounter",
+        "max": "0"
+      },
+      {
+        "id": "Medication.manufacturer",
+        "path": "Medication.manufacturer",
+        "max": "0"
+      },
+      {
+        "id": "Medication.ingredient",
+        "path": "Medication.ingredient",
+        "max": "0"
+      },
+      {
+        "id": "Medication.package",
+        "path": "Medication.package",
+        "max": "0"
+      },
+      {
         "id": "Medication.image",
         "path": "Medication.image",
         "max": "0"
