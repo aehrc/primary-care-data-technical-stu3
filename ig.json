@@ -21,6 +21,7 @@
 		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCarePatient",
 		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareAllergyIntolerance",
 		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedication",
+		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareAllergyIntoleranceList",
                 "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1249.0",
                 "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1249.0/vs",
                 "http://hl7.org.au/fhir/StructureDefinition/au-ethnicity",
@@ -138,6 +139,10 @@
         "StructureDefinition/au-primarycaremedication": {
             "base": "StructureDefinition-au-primarycaremedication.html",
             "defns": "StructureDefinition-au-primarycaremedication-definitions.html"
+        },
+        "StructureDefinition/au-primarycareallergyintolerancelist": {
+            "base": "StructureDefinition-au-primarycareallergyintolerancelist.html",
+            "defns": "StructureDefinition-au-primarycareallergyintolerancelist-definitions.html"
         },
         "ConceptMap/e558d72d-5240-4afe-8174-fe5d8b831b70": {
             "base": "ConceptMap-e558d72d-5240-4afe-8174-fe5d8b831b70.html",
