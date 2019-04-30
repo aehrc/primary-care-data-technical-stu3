@@ -13,6 +13,8 @@
 		"http://aehrc.com/conceptmap/fhir-gender-au-sex",
 		"http://aehrc.com/conceptmap/fhir-marital-status-au-marital-status",
 		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCarePatient",
+		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareAllergyIntolerance",
+		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedication",
                 "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1249.0",
                 "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1249.0/vs",
                 "http://hl7.org.au/fhir/StructureDefinition/au-ethnicity",
