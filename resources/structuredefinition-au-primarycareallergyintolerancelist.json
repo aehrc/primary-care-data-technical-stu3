@@ -1,0 +1,26 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "au-primarycareallergyintolerancelist",
+  "url": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareAllergyIntoleranceList",
+  "version": "0.0.1",
+  "name": "AUPrimaryCareAllergyIntoleranceList",
+  "title": "AU Primary Care Allergy Intolerance List",
+  "status": "draft",
+  "description": "This profile defines an allergy intolerance list structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.",
+  "purpose": "This profile defines an allergy intolerance list structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.",
+  "fhirVersion": "3.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "List",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/List",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "List.identifier",
+        "path": "List.identifier",
+        "max": "0"
+      }
+    ]
+  }
+}
