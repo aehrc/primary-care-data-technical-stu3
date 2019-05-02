@@ -6,6 +6,17 @@
   "name": "AUPrimaryCareAllergyIntoleranceList",
   "title": "AU Primary Care Allergy Intolerance List",
   "status": "draft",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://confluence.csiro.au/display/primarycaredata/",
+          "use": "work"
+        }
+      ]
+    }
+  ],
   "description": "This profile defines an allergy intolerance list structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.",
   "purpose": "This profile defines an allergy intolerance list structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.",
   "fhirVersion": "3.0.1",
@@ -17,9 +28,30 @@
   "differential": {
     "element": [
       {
+        "id": "List",
+        "path": "List",
+        "short": "A list of allergies/intolerances in an Australian primary care healthcare context"
+      },
+      {
         "id": "List.identifier",
         "path": "List.identifier",
         "max": "0"
+      },
+      {
+        "id": "List.entry",
+        "path": "List.entry",
+        "short": "Allergy/intolerance list entry",
+        "definition": "List of allergy/intolerance type entries"
+      },
+      {
+        "id": "List.entry.item",
+        "path": "List.entry.item",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareAllergyIntolerance"
+          }
+        ]
       }
     ]
   }
