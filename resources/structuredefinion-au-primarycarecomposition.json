@@ -1,0 +1,17 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "au-primarycareComposition",
+  "url": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareComposition",
+  "version": "0.0.1",
+  "name": "AUPrimaryCareComposition",
+  "title": "AU Primary Care Composition",
+  "status": "draft",
+  "description": "This profile defines a composition structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.",
+  "purpose": "This profile defines a composition structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.",
+  "fhirVersion": "3.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Composition",
+  "baseDefinition": "http://hl7.org.au/fhir/StructureDefinition/au-composition",
+  "derivation": "constraint"
+}
