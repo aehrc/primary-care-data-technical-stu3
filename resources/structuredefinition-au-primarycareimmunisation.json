@@ -1,0 +1,18 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "au-primarycareimmunisation",
+  "url": "http://example.org/fhir/StructureDefinition/MyAUBaseImmunisation",
+  "version": "0.0.1",
+  "name": "AUPrimaryCareImmunisation",
+  "title": "AU Primary Care Immunisation",
+  "status": "draft",
+  "experimental": false,
+  "description": "This profile defines an immunisation structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.",
+  "purpose": "This profile defines a immunisation structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.",
+  "fhirVersion": "3.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Immunization",
+  "baseDefinition": "http://hl7.org.au/fhir/StructureDefinition/au-immunization",
+  "derivation": "constraint"
+}
