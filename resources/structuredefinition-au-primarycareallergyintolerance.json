@@ -7,7 +7,7 @@
   "title": "AU Primary Care Allergy Intolerance",
   "status": "draft",
   "experimental": false,
-  "description": "This profile defines a patient allergy intolerance structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.",
+  "description": "This profile defines an allergy intolerance structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.",
   "purpose": "This profile defines an allergy intolerance structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.",
   "fhirVersion": "3.0.1",
   "kind": "resource",
@@ -33,7 +33,6 @@
           "valueSetUri": "http://hl7.org/fhir/ValueSet/allergy-verification-status"
         }
       },
-
       {
         "id": "AllergyIntolerance.criticality",
         "path": "AllergyIntolerance.criticality",
