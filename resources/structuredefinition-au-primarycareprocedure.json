@@ -14,5 +14,14 @@
   "abstract": false,
   "type": "Procedure",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Procedure",
-  "derivation": "constraint"
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure.note",
+        "path": "Procedure.note",
+        "mustSupport": true
+      }
+    ]
+  }
 }

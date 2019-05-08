@@ -94,6 +94,30 @@
         <reference value="StructureDefinition/au-primarycareallergyintolerancelist"/>
       </sourceReference>
     </resource>
+   <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/au-primarycarecomposition"/>
+      </sourceReference>
+    </resource>
+   <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/au-primarycarecondition"/>
+      </sourceReference>
+    </resource>
+   <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/au-primarycareimmunisation"/>
+      </sourceReference>
+    </resource>
+   <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/au-primarycareprocedure"/>
+      </sourceReference>
+    </resource>
     <resource>
       <example value="false"/>
       <sourceReference>

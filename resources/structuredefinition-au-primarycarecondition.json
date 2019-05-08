@@ -14,5 +14,14 @@
   "abstract": false,
   "type": "Condition",
   "baseDefinition": "http://hl7.org.au/fhir/StructureDefinition/au-condition",
-  "derivation": "constraint"
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Condition.assertedDate",
+        "path": "Condition.assertedDate",
+        "mustSupport": true
+      }
+    ]
+  }
 }

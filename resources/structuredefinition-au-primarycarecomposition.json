@@ -13,5 +13,14 @@
   "abstract": false,
   "type": "Composition",
   "baseDefinition": "http://hl7.org.au/fhir/StructureDefinition/au-composition",
-  "derivation": "constraint"
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Composition.title",
+        "path": "Composition.title",
+        "fixedString": "GP to GP Patient Summary"
+      }
+    ]
+  }
 }
