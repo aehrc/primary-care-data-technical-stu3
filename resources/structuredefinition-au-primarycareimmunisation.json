@@ -18,9 +18,28 @@
   "differential": {
     "element": [
       {
+        "id": "Immunization.vaccineCode.coding:airVaccineCode",
+        "path": "Immunization.vaccineCode.coding",
+        "sliceName": "airVaccineCode",
+        "mustSupport": true
+      },
+      {
+        "id": "Immunization.date",
+        "path": "Immunization.date",
+        "mustSupport": true
+      },
+      {
+        "id": "Immunization.lotNumber",
+        "path": "Immunization.lotNumber",
+        "alias": [
+          "Batch Number"
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "Immunization.note",
         "path": "Immunization.note",
-        "mustSupport": false
+        "mustSupport": true
       }
     ]
   }
