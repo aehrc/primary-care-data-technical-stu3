@@ -99,7 +99,6 @@
         "id": "Patient.name",
         "path": "Patient.name",
         "min": 1,
-        "max": "1",
         "mustSupport": true,
         "mapping": [
           {
@@ -111,7 +110,22 @@
       {
         "id": "Patient.telecom.system",
         "path": "Patient.telecom.system",
-        "fixedCode": "phone"
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Patient.telecom.system:phone",
+        "path": "Patient.telecom.system",
+        "sliceName": "phone",
+        "fixedCode": "phone",
+        "mustSupport": true
       },
       {
         "id": "Patient.gender",
@@ -140,7 +154,7 @@
       {
         "id": "Patient.address",
         "path": "Patient.address",
-        "max": "1",
+        "min": 1,
         "mustSupport": true,
         "mapping": [
           {
@@ -148,6 +162,33 @@
             "map": "Patient.address"
           }
         ]
+      },
+      {
+        "id": "Patient.contact.relationship",
+        "path": "Patient.contact.relationship",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "relationship"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Patient.contact.relationship:emergencyContact",
+        "path": "Patient.contact.relationship",
+        "sliceName": "emergencyContact",
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "code": "C",
+              "display": "Emergency Contact"
+            }
+          ]
+        },
+        "mustSupport": true
       },
       {
         "id": "Patient.animal",
@@ -163,18 +204,7 @@
       {
         "id": "Patient.communication",
         "path": "Patient.communication",
-        "max": "1",
         "mustSupport": true
-      },
-      {
-        "id": "Patient.communication.language",
-        "path": "Patient.communication.language",
-        "binding": {
-          "strength": "extensible",
-          "valueSetReference": {
-            "reference": "https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2"
-          }
-        }
       }
     ]
   }
