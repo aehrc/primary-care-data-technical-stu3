@@ -108,26 +108,6 @@
         ]
       },
       {
-        "id": "Patient.telecom.system",
-        "path": "Patient.telecom.system",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "system"
-            }
-          ],
-          "rules": "open"
-        }
-      },
-      {
-        "id": "Patient.telecom.system:phone",
-        "path": "Patient.telecom.system",
-        "sliceName": "phone",
-        "fixedCode": "phone",
-        "mustSupport": true
-      },
-      {
         "id": "Patient.gender",
         "path": "Patient.gender",
         "label": "Gender-Identity",
