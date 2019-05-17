@@ -177,20 +177,6 @@
         }
       },
       {
-        "id": "Patient.contact.relationship:emergencyContact",
-        "path": "Patient.contact.relationship",
-        "sliceName": "emergencyContact",
-        "fixedCodeableConcept": {
-          "coding": [
-            {
-              "code": "C",
-              "display": "Emergency Contact"
-            }
-          ]
-        },
-        "mustSupport": true
-      },
-      {
         "id": "Patient.animal",
         "extension": [
           {
