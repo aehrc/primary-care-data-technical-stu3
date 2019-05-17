@@ -164,19 +164,6 @@
         ]
       },
       {
-        "id": "Patient.contact.relationship",
-        "path": "Patient.contact.relationship",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "relationship"
-            }
-          ],
-          "rules": "open"
-        }
-      },
-      {
         "id": "Patient.animal",
         "extension": [
           {
