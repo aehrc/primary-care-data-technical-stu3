@@ -71,9 +71,9 @@
         }
       },
       {
-        "id": "Patient.extension:birth-sex",
+        "id": "Patient.extension:birthSex",
         "path": "Patient.extension",
-        "sliceName": "birth-sex",
+        "sliceName": "birthSex",
         "short": "sex",
         "definition": "The distinction between male, female, and others who do not have biological characteristics typically associated with either the male or female sex, as represented by a code [METeOR 635126] . See also Meteor 635128.",
         "comment": "The codes required are intended to present birth sex and not gender identity or reassigned sex.",
@@ -86,7 +86,7 @@
         "mustSupport": true
       },
       {
-        "id": "Patient.extension:birth-sex.valueCode:valueCode",
+        "id": "Patient.extension:birthSex.valueCode:valueCode",
         "path": "Patient.extension.valueCode",
         "sliceName": "valueCode"
       },
