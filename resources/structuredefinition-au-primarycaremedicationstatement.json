@@ -1,0 +1,51 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "au-primarycaremedicationstatement",
+  "url": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedicationStatement",
+  "version": "0.0.1",
+  "name": "AUPrimaryCareMedicationStatement",
+  "title": "AU Primary Care Medication Statement",
+  "status": "draft",
+  "description": "This profile defines a medication statement structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.",
+  "purpose": "This profile defines a medication statement structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.",
+  "fhirVersion": "3.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "MedicationStatement",
+  "baseDefinition": "http://hl7.org.au/fhir/StructureDefinition/au-medicationstatement",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "MedicationStatement.reasonCode",
+        "path": "MedicationStatement.reasonCode",
+        "mustSupport": true
+      },
+      {
+        "id": "MedicationStatement.note",
+        "path": "MedicationStatement.note",
+        "mustSupport": false
+      },
+      {
+        "id": "MedicationStatement.dosage.additionalInstruction",
+        "path": "MedicationStatement.dosage.additionalInstruction",
+        "mustSupport": true
+      },
+      {
+        "id": "MedicationStatement.dosage.timing.repeat.duration",
+        "path": "MedicationStatement.dosage.timing.repeat.duration",
+        "mustSupport": true
+      },
+      {
+        "id": "MedicationStatement.dosage.timing.repeat.frequency",
+        "path": "MedicationStatement.dosage.timing.repeat.frequency",
+        "mustSupport": true
+      },
+      {
+        "id": "MedicationStatement.dosage.route",
+        "path": "MedicationStatement.dosage.route",
+        "mustSupport": false
+      }
+    ]
+  }
+}

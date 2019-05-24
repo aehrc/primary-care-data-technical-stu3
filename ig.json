@@ -21,6 +21,7 @@
 		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCarePatient",
 		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareAllergyIntolerance",
 		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedication",
+		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedicationStatement",
 		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareAllergyIntoleranceList",
 		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareCondition",
 		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareComposition",
@@ -143,6 +144,10 @@
         "StructureDefinition/au-primarycaremedication": {
             "base": "StructureDefinition-au-primarycaremedication.html",
             "defns": "StructureDefinition-au-primarycaremedication-definitions.html"
+        },
+        "StructureDefinition/au-primarycaremedicationstatement": {
+            "base": "StructureDefinition-au-primarycaremedicationstatement.html",
+            "defns": "StructureDefinition-au-primarycaremedicationstatement-definitions.html"
         },
         "StructureDefinition/au-primarycareallergyintolerancelist": {
             "base": "StructureDefinition-au-primarycareallergyintolerancelist.html",

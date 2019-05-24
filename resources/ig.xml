@@ -87,8 +87,14 @@
       <sourceReference>
         <reference value="StructureDefinition/au-primarycaremedication"/>
       </sourceReference>
-    </resource>
+   </resource>
    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/au-primarycaremedicationstatement"/>
+      </sourceReference>
+    </resource>
+	<resource>
       <example value="false"/>
       <sourceReference>
         <reference value="StructureDefinition/au-primarycareallergyintolerancelist"/>
