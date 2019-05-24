@@ -18,8 +18,23 @@
   "differential": {
     "element": [
       {
-        "id": "Condition.assertedDate",
-        "path": "Condition.assertedDate",
+        "id": "Condition.clinicalStatus",
+        "path": "Condition.clinicalStatus",
+        "mustSupport": true
+      },
+      {
+        "id": "Condition.code",
+        "path": "Condition.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Condition.bodySite",
+        "path": "Condition.bodySite",
+        "mustSupport": true
+      },
+      {
+        "id": "Condition.note",
+        "path": "Condition.note",
         "mustSupport": true
       }
     ]

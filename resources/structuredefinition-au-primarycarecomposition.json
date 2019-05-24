@@ -17,6 +17,25 @@
   "differential": {
     "element": [
       {
+        "id": "Composition.status",
+        "path": "Composition.status",
+        "fixedCode": "final"
+      },
+      {
+        "id": "Composition.type",
+        "path": "Composition.type",
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "version": "2.65",
+              "code": "11503-0",
+              "display": "Medical Records"
+            }
+          ]
+        }
+      },
+      {
         "id": "Composition.title",
         "path": "Composition.title",
         "fixedString": "GP to GP Patient Summary"
