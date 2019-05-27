@@ -151,6 +151,32 @@
         "max": "1"
       },
       {
+        "id": "Composition.section:immunisation.code.coding.system",
+        "path": "Composition.section.code.coding.system",
+        "fixedUri": "http://loinc.org"
+      },
+      {
+        "id": "Composition.section:immunisation.code.coding.version",
+        "path": "Composition.section.code.coding.version",
+        "fixedString": "2.65"
+      },
+      {
+        "id": "Composition.section:immunisation.code.coding.code",
+        "path": "Composition.section.code.coding.code",
+        "fixedCode": "41291-6"
+      },
+      {
+        "id": "Composition.section:immunisation.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Composition.section.code.coding.display",
+        "fixedString": "Immunization"
+      },
+      {
         "id": "Composition.section:medicines",
         "extension": [
           {
@@ -181,14 +207,36 @@
         "fixedCodeableConcept": {
           "coding": [
             {
-              "system": "http://loinc.org",
-              "version": "2.65",
-              "code": "11329-0",
-              "display": "History general",
               "userSelected": false
             }
           ]
         }
+      },
+      {
+        "id": "Composition.section:clinicalSynopsis.code.coding.system",
+        "path": "Composition.section.code.coding.system",
+        "fixedUri": "http://loinc.org"
+      },
+      {
+        "id": "Composition.section:clinicalSynopsis.code.coding.version",
+        "path": "Composition.section.code.coding.version",
+        "fixedString": "2.65"
+      },
+      {
+        "id": "Composition.section:clinicalSynopsis.code.coding.code",
+        "path": "Composition.section.code.coding.code",
+        "fixedCode": "11329-0"
+      },
+      {
+        "id": "Composition.section:clinicalSynopsis.code.coding.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Composition.section.code.coding.display",
+        "fixedString": "History general"
       }
     ]
   }
