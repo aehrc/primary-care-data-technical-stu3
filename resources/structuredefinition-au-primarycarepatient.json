@@ -20,8 +20,7 @@
       {
         "id": "Patient.extension:birthPlace",
         "path": "Patient.extension",
-        "sliceName": "birthPlace",
-        "mustSupport": true
+        "sliceName": "birthPlace"
       },
       {
         "id": "Patient.extension:birthPlace.url",
@@ -69,26 +68,6 @@
             "reference": "https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1"
           }
         }
-      },
-      {
-        "id": "Patient.extension:birthSex",
-        "path": "Patient.extension",
-        "sliceName": "birthSex",
-        "short": "sex",
-        "definition": "The distinction between male, female, and others who do not have biological characteristics typically associated with either the male or female sex, as represented by a code [METeOR 635126] . See also Meteor 635128.",
-        "comment": "The codes required are intended to present birth sex and not gender identity or reassigned sex.",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
-          }
-        ],
-        "mustSupport": true
-      },
-      {
-        "id": "Patient.extension:birthSex.valueCode:valueCode",
-        "path": "Patient.extension.valueCode",
-        "sliceName": "valueCode"
       },
       {
         "id": "Patient.active",
@@ -166,6 +145,57 @@
             "map": "Patient.address"
           }
         ]
+      },
+      {
+        "id": "Patient.contact",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name",
+            "valueString": "Contact"
+          }
+        ],
+        "path": "Patient.contact",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "telecom.system"
+            },
+            {
+              "type": "value",
+              "path": "relationship.coding.code"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Patient.contact:emergencyContact",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name",
+            "valueString": "Contact"
+          }
+        ],
+        "path": "Patient.contact",
+        "sliceName": "emergencyContact"
+      },
+      {
+        "id": "Patient.contact:emergencyContact.relationship.coding.system",
+        "path": "Patient.contact.relationship.coding.system",
+        "fixedUri": "http://hl7.org/fhir/v2/0131"
+      },
+      {
+        "id": "Patient.contact:emergencyContact.relationship.coding.code",
+        "path": "Patient.contact.relationship.coding.code",
+        "fixedCode": "C",
+        "mustSupport": true
+      },
+      {
+        "id": "Patient.contact:emergencyContact.telecom.system",
+        "path": "Patient.contact.telecom.system",
+        "fixedCode": "phone",
+        "mustSupport": true
       },
       {
         "id": "Patient.animal",

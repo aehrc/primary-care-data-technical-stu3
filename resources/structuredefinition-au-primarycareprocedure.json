@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "au-primarycareprocedure",
   "url": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareProcedure",
-  "version": "0.01",
+  "version": "0.0.1",
   "name": "AUPrimaryCareProcedure",
   "title": "AU Primary Care Procedure",
   "status": "draft",
@@ -17,6 +17,23 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Procedure.code",
+        "path": "Procedure.code",
+        "mustSupport": true,
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "ProcedureCode"
+            }
+          ],
+          "strength": "preferred",
+          "valueSetReference": {
+            "reference": "https://healthterminologies.gov.au/fhir/ValueSet/procedure-1"
+          }
+        }
+      },
       {
         "id": "Procedure.note",
         "path": "Procedure.note",
