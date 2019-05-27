@@ -22,23 +22,173 @@
         "fixedCode": "final"
       },
       {
-        "id": "Composition.type",
-        "path": "Composition.type",
+        "id": "Composition.type.coding",
+        "path": "Composition.type.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "system"
+            },
+            {
+              "type": "value",
+              "path": "code"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Composition.type.coding:loincMedicalRecords",
+        "path": "Composition.type.coding",
+        "sliceName": "loincMedicalRecords",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.type.coding:loincMedicalRecords.system",
+        "path": "Composition.type.coding.system",
+        "fixedUri": "http://loinc.org"
+      },
+      {
+        "id": "Composition.type.coding:loincMedicalRecords.version",
+        "path": "Composition.type.coding.version",
+        "fixedString": "2.65"
+      },
+      {
+        "id": "Composition.type.coding:loincMedicalRecords.code",
+        "path": "Composition.type.coding.code",
+        "fixedCode": "11503-0"
+      },
+      {
+        "id": "Composition.type.coding:loincMedicalRecords.display",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
+          }
+        ],
+        "path": "Composition.type.coding.display",
+        "fixedString": "Medical Records"
+      },
+      {
+        "id": "Composition.subject",
+        "path": "Composition.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCarePatient"
+          }
+        ]
+      },
+      {
+        "id": "Composition.encounter",
+        "path": "Composition.encounter",
+        "max": "0"
+      },
+      {
+        "id": "Composition.title",
+        "path": "Composition.title",
+        "fixedString": "Practice to Practice Patient Summary"
+      },
+      {
+        "id": "Composition.section",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name",
+            "valueString": "Section"
+          }
+        ],
+        "path": "Composition.section",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "code.coding.code"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Composition.section:medicalHistory",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name",
+            "valueString": "Section"
+          }
+        ],
+        "path": "Composition.section",
+        "sliceName": "medicalHistory",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Composition.section:adverseReaction",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name",
+            "valueString": "Section"
+          }
+        ],
+        "path": "Composition.section",
+        "sliceName": "adverseReaction",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Composition.section:immunisation",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name",
+            "valueString": "Section"
+          }
+        ],
+        "path": "Composition.section",
+        "sliceName": "immunisation",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Composition.section:medicines",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name",
+            "valueString": "Section"
+          }
+        ],
+        "path": "Composition.section",
+        "sliceName": "medicines",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Composition.section:clinicalSynopsis",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name",
+            "valueString": "Section"
+          }
+        ],
+        "path": "Composition.section",
+        "sliceName": "clinicalSynopsis",
+        "max": "1"
+      },
+      {
+        "id": "Composition.section:clinicalSynopsis.code",
+        "path": "Composition.section.code",
         "fixedCodeableConcept": {
           "coding": [
             {
               "system": "http://loinc.org",
               "version": "2.65",
-              "code": "11503-0",
-              "display": "Medical Records"
+              "code": "11329-0",
+              "display": "History general",
+              "userSelected": false
             }
           ]
         }
-      },
-      {
-        "id": "Composition.title",
-        "path": "Composition.title",
-        "fixedString": "GP to GP Patient Summary"
       }
     ]
   }
