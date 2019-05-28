@@ -17,14 +17,39 @@
   "differential": {
     "element": [
       {
+        "id": "MedicationStatement.medication[x]:medicationCoded",
+        "path": "MedicationStatement.medication[x]",
+        "sliceName": "medicationCoded"
+      },
+      {
+        "id": "MedicationStatement.medication[x]:medicationCoded.coding:amt",
+        "path": "MedicationStatement.medication[x].coding",
+        "sliceName": "amt",
+        "mustSupport": true
+      },
+      {
         "id": "MedicationStatement.reasonCode",
         "path": "MedicationStatement.reasonCode",
         "mustSupport": true
       },
       {
+        "id": "MedicationStatement.reasonCode.coding:snomedReasonCode",
+        "path": "MedicationStatement.reasonCode.coding",
+        "sliceName": "snomedReasonCode",
+        "binding": {
+          "strength": "required",
+          "valueSetUri": "http://aehrc.com/valueset/clinical-indication-for-medication"
+        }
+      },
+      {
         "id": "MedicationStatement.note",
         "path": "MedicationStatement.note",
         "mustSupport": false
+      },
+      {
+        "id": "MedicationStatement.dosage",
+        "path": "MedicationStatement.dosage",
+        "mustSupport": true
       },
       {
         "id": "MedicationStatement.dosage.additionalInstruction",
@@ -44,7 +69,19 @@
       {
         "id": "MedicationStatement.dosage.route",
         "path": "MedicationStatement.dosage.route",
-        "mustSupport": false
+        "mustSupport": true,
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "RouteOfAdministration"
+            }
+          ],
+          "strength": "extensible",
+          "valueSetReference": {
+            "reference": "https://healthterminologies.gov.au/fhir/ValueSet/route-of-administration-1"
+          }
+        }
       }
     ]
   }

@@ -28,9 +28,27 @@
         "mustSupport": true
       },
       {
+        "id": "Condition.code.coding:snomedCondition",
+        "path": "Condition.code.coding",
+        "sliceName": "snomedCondition",
+        "mustSupport": true
+      },
+      {
         "id": "Condition.bodySite",
         "path": "Condition.bodySite",
-        "mustSupport": true
+        "mustSupport": true,
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "BodySite"
+            }
+          ],
+          "strength": "preferred",
+          "valueSetReference": {
+            "reference": "https://healthterminologies.gov.au/fhir/ValueSet/body-site-1"
+          }
+        }
       },
       {
         "id": "Condition.note",
