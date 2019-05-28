@@ -125,6 +125,31 @@
         "max": "1"
       },
       {
+        "id": "Composition.section:medicalHistory.mode",
+        "path": "Composition.section.mode",
+        "fixedCode": "snapshot"
+      },
+      {
+        "id": "Composition.section:medicalHistory.entry",
+        "path": "Composition.section.entry",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedicalHistoryList"
+          }
+        ]
+      },
+      {
+        "id": "Composition.section:medicalHistory.emptyReason",
+        "path": "Composition.section.emptyReason",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section:medicalHistory.section",
+        "path": "Composition.section.section",
+        "max": "0"
+      },
+      {
         "id": "Composition.section:adverseReaction",
         "extension": [
           {
@@ -136,6 +161,31 @@
         "sliceName": "adverseReaction",
         "min": 1,
         "max": "1"
+      },
+      {
+        "id": "Composition.section:adverseReaction.mode",
+        "path": "Composition.section.mode",
+        "fixedCode": "snapshot"
+      },
+      {
+        "id": "Composition.section:adverseReaction.entry",
+        "path": "Composition.section.entry",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareAllergyIntoleranceList"
+          }
+        ]
+      },
+      {
+        "id": "Composition.section:adverseReaction.emptyReason",
+        "path": "Composition.section.emptyReason",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section:adverseReaction.section",
+        "path": "Composition.section.section",
+        "max": "0"
       },
       {
         "id": "Composition.section:immunisation",
@@ -177,6 +227,31 @@
         "fixedString": "Immunization"
       },
       {
+        "id": "Composition.section:immunisation.mode",
+        "path": "Composition.section.mode",
+        "fixedCode": "snapsot"
+      },
+      {
+        "id": "Composition.section:immunisation.entry",
+        "path": "Composition.section.entry",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareImmunisationList"
+          }
+        ]
+      },
+      {
+        "id": "Composition.section:immunisation.emptyReason",
+        "path": "Composition.section.emptyReason",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section:immunisation.section",
+        "path": "Composition.section.section",
+        "max": "0"
+      },
+      {
         "id": "Composition.section:medicines",
         "extension": [
           {
@@ -188,6 +263,31 @@
         "sliceName": "medicines",
         "min": 1,
         "max": "1"
+      },
+      {
+        "id": "Composition.section:medicines.mode",
+        "path": "Composition.section.mode",
+        "fixedCode": "snapshot"
+      },
+      {
+        "id": "Composition.section:medicines.entry",
+        "path": "Composition.section.entry",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedicineList"
+          }
+        ]
+      },
+      {
+        "id": "Composition.section:medicines.emptyReason",
+        "path": "Composition.section.emptyReason",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section:medicines.section",
+        "path": "Composition.section.section",
+        "max": "0"
       },
       {
         "id": "Composition.section:clinicalSynopsis",
@@ -237,6 +337,11 @@
         ],
         "path": "Composition.section.code.coding.display",
         "fixedString": "History general"
+      },
+      {
+        "id": "Composition.section:clinicalSynopsis.section",
+        "path": "Composition.section.section",
+        "max": "0"
       }
     ]
   }
