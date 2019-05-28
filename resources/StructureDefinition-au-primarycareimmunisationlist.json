@@ -14,5 +14,29 @@
   "abstract": false,
   "type": "List",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/List",
-  "derivation": "constraint"
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "List.status",
+        "path": "List.status",
+        "fixedCode": "current"
+      },
+      {
+        "id": "List.mode",
+        "path": "List.mode",
+        "fixedCode": "snapshot"
+      },
+      {
+        "id": "List.entry",
+        "path": "List.entry",
+        "mustSupport": true
+      },
+      {
+        "id": "List.emptyReason",
+        "path": "List.emptyReason",
+        "mustSupport": true
+      }
+    ]
+  }
 }
