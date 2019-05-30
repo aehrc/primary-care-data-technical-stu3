@@ -54,7 +54,16 @@
       {
         "id": "MedicationStatement.dosage.additionalInstruction",
         "path": "MedicationStatement.dosage.additionalInstruction",
-        "mustSupport": true
+        "mustSupport": true,
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "AdditionalInstruction"
+            }
+          ],
+          "strength": "extensible"
+        }
       },
       {
         "id": "MedicationStatement.dosage.timing.repeat.duration",
