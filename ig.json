@@ -133,13 +133,33 @@
     },
     "npm-name": "hl7.fhir.au.primarycare",
     "resources": {
-        "StructureDefinition/au-primarycarepatient": {
-            "base": "StructureDefinition-au-primarycarepatient.html",
-            "defns": "StructureDefinition-au-primarycarepatient-definitions.html"
-        },
         "StructureDefinition/au-primarycareallergyintolerance": {
             "base": "StructureDefinition-au-primarycareallergyintolerance.html",
             "defns": "StructureDefinition-au-primarycareallergyintolerance-definitions.html"
+        },
+        "StructureDefinition/au-primarycareallergyintolerancelist": {
+            "base": "StructureDefinition-au-primarycareallergyintolerancelist.html",
+            "defns": "StructureDefinition-au-primarycareallergyintolerancelist-definitions.html"
+        },
+        "StructureDefinition/au-primarycarecomposition": {
+            "base": "StructureDefinition-au-primarycarecomposition.html",
+            "defns": "StructureDefinition-au-primarycarecomposition-definitions.html"
+        },
+        "StructureDefinition/au-primarycarecondition": {
+            "base": "StructureDefinition-au-primarycarecondition.html",
+            "defns": "StructureDefinition-au-primarycarecondition-definitions.html"
+        },
+        "StructureDefinition/au-primarycareimmunisation": {
+            "base": "StructureDefinition-au-primarycareimmunisation.html",
+            "defns": "StructureDefinition-au-primarycareimmunisation-definitions.html"
+        },
+        "StructureDefinition/au-primarycareimmunisationlist": {
+            "base": "StructureDefinition-au-primarycareimmunisationlist.html",
+            "defns": "StructureDefinition-au-primarycareimmunisationlist-definitions.html"
+        },
+        "StructureDefinition/au-primarycaremedicalhistorylist": {
+            "base": "StructureDefinition-au-primarycaremedicalhistorylist.html",
+            "defns": "StructureDefinition-au-primarycaremedicalhistorylist-definitions.html"
         },
         "StructureDefinition/au-primarycaremedication": {
             "base": "StructureDefinition-au-primarycaremedication.html",
@@ -149,21 +169,13 @@
             "base": "StructureDefinition-au-primarycaremedicationstatement.html",
             "defns": "StructureDefinition-au-primarycaremedicationstatement-definitions.html"
         },
-        "StructureDefinition/au-primarycareallergyintolerancelist": {
-            "base": "StructureDefinition-au-primarycareallergyintolerancelist.html",
-            "defns": "StructureDefinition-au-primarycareallergyintolerancelist-definitions.html"
+        "StructureDefinition/au-primarycaremedicinelist": {
+            "base": "StructureDefinition-au-primarycaremedicinelist.html",
+            "defns": "StructureDefinition-au-primarycaremedicinelist-definitions.html"
         },
-        "StructureDefinition/au-primarycareallergycomposition": {
-            "base": "StructureDefinition-au-primarycareallergycomposition.html",
-            "defns": "StructureDefinition-au-primarycareallergycomposition-definitions.html"
-        },
-        "StructureDefinition/au-primarycareallergycondition": {
-            "base": "StructureDefinition-au-primarycareallergycondition.html",
-            "defns": "StructureDefinition-au-primarycareallergycondition-definitions.html"
-        },
-        "StructureDefinition/au-primarycareimmunisation": {
-            "base": "StructureDefinition-au-primarycareimmunisation.html",
-            "defns": "StructureDefinition-au-primarycareimmunisation-definitions.html"
+        "StructureDefinition/au-primarycarepatient": {
+            "base": "StructureDefinition-au-primarycarepatient.html",
+            "defns": "StructureDefinition-au-primarycarepatient-definitions.html"
         },
         "StructureDefinition/au-primarycareprocedure": {
             "base": "StructureDefinition-au-primarycareprocedure.html",
