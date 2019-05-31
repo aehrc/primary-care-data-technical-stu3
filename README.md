@@ -6,7 +6,7 @@ This project contains all the files necessary to generate the Implementation Gui
 Currently the IG Publisher cannot be configured to change the terminology service. That means you can't configure the web
 service or the IG Publisher jar when running locally.
 
-We have a modified version of the IG Publisher jar that allows you to specify an alternative terminology service ..
+We have a modified version of the IG Publisher jar that allows you to specify an alternative terminology service.
 
 Example usage:
 
