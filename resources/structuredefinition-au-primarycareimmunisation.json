@@ -24,12 +24,6 @@
         "mustSupport": true
       },
       {
-        "id": "Immunization.vaccineCode.coding:airVaccineCode",
-        "path": "Immunization.vaccineCode.coding",
-        "sliceName": "airVaccineCode",
-        "mustSupport": false
-      },
-      {
         "id": "Immunization.date",
         "path": "Immunization.date",
         "mustSupport": true
