@@ -29,14 +29,6 @@
         "mustSupport": true
       },
       {
-        "id": "Immunization.lotNumber",
-        "path": "Immunization.lotNumber",
-        "alias": [
-          "Batch Number"
-        ],
-        "mustSupport": true
-      },
-      {
         "id": "Immunization.note",
         "path": "Immunization.note",
         "mustSupport": true
