@@ -157,6 +157,12 @@
     <resource>
       <example value="false"/>
       <sourceReference>
+        <reference value="StructureDefinition/condition-course"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
         <reference value="StructureDefinition/au-ethnicity"/>
       </sourceReference>
     </resource>

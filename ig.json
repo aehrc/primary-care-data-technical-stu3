@@ -192,6 +192,10 @@
             "base": "ConceptMap-1f8bfdf8-0bb9-4596-80e2-6d50a335e222.html",
             "defns": "ConceptMap-1f8bfdf8-0bb9-4596-80e2-6d50a335e222-definitions.html"
         },
+        "StructureDefinition/condition-course": {
+            "base": "StructureDefinition-condition-course.html",
+            "defns": "StructureDefinition-condition-course-definitions.html"
+        },
         "CodeSystem/au-ethnicity": {
             "base": "CodeSystem-au-ethnicity.html",
             "defns": "CodeSystem-au-ethnicity-definitions.html"

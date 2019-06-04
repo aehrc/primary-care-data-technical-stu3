@@ -1,0 +1,80 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "condition-course",
+  "url": "https://aehrc.com/fhir/StructureDefinition/condition-course",
+  "version": "0.0.1",
+  "name": "ConditionCourse",
+  "title": "Course of this Condition",
+  "status": "draft",
+  "description": "This extension applies to the Condition resource and the value indicates the course of the condition.",
+  "fhirVersion": "3.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "contextType": "resource",
+  "context": [
+    "Condition"
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Course of this condition",
+        "definition": "This extension applies to the Condition resource and the value indicates the course of the condition.",
+        "max": "1",
+        "base": {
+          "path": "Element",
+          "min": 0,
+          "max": "*"
+        },
+        "constraint": [
+          {
+            "key": "ext-1",
+            "severity": "error",
+            "human": "Must have either extensions or value[x], not both",
+            "expression": "extension.exists() != value.exists()",
+            "xpath": "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://aehrc.com/fhir/StructureDefinition/condition-course"
+      },
+      {
+        "id": "Extension.value[x]:valueCodeableConcept",
+        "path": "Extension.valueCodeableConcept",
+        "sliceName": "valueCodeableConcept",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "preferred",
+          "valueSetReference": {
+            "reference": "http://aehrc.com/valueset/course"
+          }
+        }
+      },
+      {
+        "id": "Extension.value[x]:valueCodeableConcept.coding",
+        "path": "Extension.valueCodeableConcept.coding",
+        "binding": {
+          "strength": "preferred",
+          "valueSetUri": "http://aehrc.com/valueset/course"
+        }
+      }
+    ]
+  }
+}
