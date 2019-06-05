@@ -17,6 +17,11 @@
   "differential": {
     "element": [
       {
+        "id": "Composition",
+        "path": "Composition",
+        "short": "Composition for the Australian primary care practice-to-practice record transfer context."
+      },
+      {
         "id": "Composition.status",
         "path": "Composition.status",
         "fixedCode": "final"

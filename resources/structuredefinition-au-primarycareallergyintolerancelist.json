@@ -30,12 +30,7 @@
       {
         "id": "List",
         "path": "List",
-        "short": "A list of allergies/intolerances in an Australian primary care healthcare context"
-      },
-      {
-        "id": "List.identifier",
-        "path": "List.identifier",
-        "max": "0"
+        "short": "A list of allergies/intolerances in an Australian primary care practice-to-practice record transfer context."
       },
       {
         "id": "List.status",
@@ -51,8 +46,7 @@
         "id": "List.entry",
         "path": "List.entry",
         "short": "Allergy/intolerance list entry",
-        "definition": "List of allergy/intolerance type entries",
-        "mustSupport": true
+        "definition": "List of allergy/intolerance type entries"
       },
       {
         "id": "List.entry.item",
@@ -62,7 +56,8 @@
             "code": "Reference",
             "targetProfile": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareAllergyIntolerance"
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "List.emptyReason",

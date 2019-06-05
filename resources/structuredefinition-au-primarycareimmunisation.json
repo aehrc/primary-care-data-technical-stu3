@@ -6,7 +6,6 @@
   "name": "AUPrimaryCareImmunisation",
   "title": "AU Primary Care Immunisation",
   "status": "draft",
-  "experimental": false,
   "description": "This profile defines an immunisation structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.",
   "purpose": "This profile defines a immunisation structure that includes core localisation concepts for use in an Australian primary care practice-to-practice record transfer context.",
   "fhirVersion": "3.0.1",
@@ -17,6 +16,11 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Immunization",
+        "path": "Immunization",
+        "short": "An immunisation statement in an Australian primary care practice-to-practice record transfer context."
+      },
       {
         "id": "Immunization.vaccineCode.coding:amtVaccineCode",
         "path": "Immunization.vaccineCode.coding",

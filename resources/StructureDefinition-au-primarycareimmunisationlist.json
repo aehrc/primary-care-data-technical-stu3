@@ -18,6 +18,11 @@
   "differential": {
     "element": [
       {
+        "id": "List",
+        "path": "List",
+        "short": "A list of immunisations in an Australian primary care practice-to-practice record transfer context."
+      },
+      {
         "id": "List.status",
         "path": "List.status",
         "fixedCode": "current"
@@ -28,8 +33,14 @@
         "fixedCode": "snapshot"
       },
       {
-        "id": "List.entry",
-        "path": "List.entry",
+        "id": "List.entry.item",
+        "path": "List.entry.item",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareImmunisation"
+          }
+        ],
         "mustSupport": true
       },
       {

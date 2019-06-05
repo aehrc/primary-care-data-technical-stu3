@@ -18,6 +18,11 @@
   "differential": {
     "element": [
       {
+        "id": "Medication",
+        "path": "Medication",
+        "short": "A medication in an Australian primary care practice-to-practice record transfer context."
+      },
+      {
         "id": "Medication.extension:strengthText",
         "extension": [
           {
@@ -30,11 +35,6 @@
         "mustSupport": true
       },
       {
-        "id": "Medication.code",
-        "path": "Medication.code",
-        "mustSupport": true
-      },
-      {
         "id": "Medication.code.coding:amt",
         "path": "Medication.code.coding",
         "sliceName": "amt",
@@ -44,6 +44,11 @@
         "id": "Medication.form",
         "path": "Medication.form",
         "mustSupport": true
+      },
+      {
+        "id": "Medication.form.coding",
+        "path": "Medication.form.coding",
+        "mustSupport": false
       },
       {
         "id": "Medication.form.coding:snomedForm",
