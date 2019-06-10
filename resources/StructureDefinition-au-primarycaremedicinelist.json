@@ -17,6 +17,11 @@
   "differential": {
     "element": [
       {
+        "id": "List",
+        "path": "List",
+        "short": "A list of medications in an Australian primary care practice-to-practice record transfer context."
+      },
+      {
         "id": "List.status",
         "path": "List.status",
         "fixedCode": "current"
@@ -37,7 +42,7 @@
         "type": [
           {
             "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/MedicationStatement"
+            "targetProfile": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedicationStatement"
           }
         ],
         "mustSupport": true
