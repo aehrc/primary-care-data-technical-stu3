@@ -19,6 +19,12 @@
     "element": [
       {
         "id": "Medication",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "trial-use"
+          }
+        ],
         "path": "Medication",
         "short": "A medication in an Australian primary care practice-to-practice record transfer context."
       },
@@ -32,6 +38,12 @@
         ],
         "path": "Medication.extension",
         "sliceName": "strengthText",
+        "comment": "Where possible, ingredient.amount should be used to express the strength of the medication. If it is not appropriate to express the strength as a ratio, strengthText can be used.",
+        "mustSupport": true
+      },
+      {
+        "id": "Medication.code",
+        "path": "Medication.code",
         "mustSupport": true
       },
       {
@@ -54,6 +66,28 @@
         "id": "Medication.form.coding:snomedForm",
         "path": "Medication.form.coding",
         "sliceName": "snomedForm",
+        "mustSupport": true
+      },
+      {
+        "id": "Medication.ingredient",
+        "path": "Medication.ingredient",
+        "comment": "The ingredients need not be a complete list.  If an ingredient is not specified, this does not indicate whether an ingredient is present or absent.  If an ingredient is specified it does not mean that all ingredients are specified.  It is possible to specify both inactive and active ingredients.\r\n\r\nThere is no requirement to specify any ingredients of a medication unless a strength is to be provided."
+      },
+      {
+        "id": "Medication.ingredient.item[x]:itemCodeableConcept",
+        "path": "Medication.ingredient.item[x]",
+        "sliceName": "itemCodeableConcept",
+        "mustSupport": true
+      },
+      {
+        "id": "Medication.ingredient.item[x]:itemCodeableConcept.coding:amtMP",
+        "path": "Medication.ingredient.item[x].coding",
+        "sliceName": "amtMP",
+        "mustSupport": true
+      },
+      {
+        "id": "Medication.ingredient.amount",
+        "path": "Medication.ingredient.amount",
         "mustSupport": true
       }
     ]

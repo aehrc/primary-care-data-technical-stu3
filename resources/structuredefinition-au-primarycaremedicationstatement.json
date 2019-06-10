@@ -17,6 +17,11 @@
   "differential": {
     "element": [
       {
+        "id": "MedicationStatement",
+        "path": "MedicationStatement",
+        "short": "A record of medication being taken by a patient in an Australian primary care practice-to-practice record transfer context."
+      },
+      {
         "id": "MedicationStatement.medication[x]:medicationCoded",
         "path": "MedicationStatement.medication[x]",
         "sliceName": "medicationCoded"
@@ -49,7 +54,9 @@
       {
         "id": "MedicationStatement.dosage",
         "path": "MedicationStatement.dosage",
-        "mustSupport": true
+        "alias": [
+          "dose"
+        ]
       },
       {
         "id": "MedicationStatement.dosage.additionalInstruction",
