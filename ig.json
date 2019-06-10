@@ -196,17 +196,13 @@
             "base": "StructureDefinition-condition-course.html",
             "defns": "StructureDefinition-condition-course-definitions.html"
         },
-        "CodeSystem/au-ethnicity": {
-            "base": "CodeSystem-au-ethnicity.html",
-            "defns": "CodeSystem-au-ethnicity-definitions.html"
+        "ValueSet/au-primarycare-clinical-indication-for-medication": {
+            "base": "ValueSet-au-primarycare-clinical-indication-for-medication.html",
+            "defns": "au-primarycare-clinical-indication-for-medication-definitions.html"
         },
-        "ValueSet/au-ethnicity": {
-            "base": "ValueSet-au-ethnicity.html",
-            "defns": "ValueSet-au-ethnicity-definitions.html"
-        },
-        "StructureDefinition/au-ethnicity": {
-            "base": "StructureDefinition-au-ethnicity.html",
-            "defns": "StructureDefinition-au-ethnicity-definitions.html"
+        "ValueSet/ValueSet-au-primarycare-condition-course": {
+            "base": "ValueSet-au-primarycare-condition-course.html",
+            "defns": "ValueSet-au-primarycare-condition-course-definitions.html"
         }
     }
 }

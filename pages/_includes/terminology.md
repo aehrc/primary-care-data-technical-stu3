@@ -2,9 +2,18 @@
 
 # Value Sets
 
-Value sets used in this implementation guide.
+Value sets created for this implementation guide.
 
-{% include list-simple-valuesets.xhtml %}
+*It is hoped that the National Clinical Terminology Service will ultimately publish this which would result in a URL change.*
+
+{% include list-simple-valuesets.xhtml %} 
+
+New ValueSet bindings for this implementation guide.
+
+* [Australian Indigenous Status (external)](https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1)
+* [Route of Administration (external)](https://healthterminologies.gov.au/fhir/ValueSet/route-of-administration-1)
+* [Body Site 1 (external)](https://healthterminologies.gov.au/fhir/ValueSet/body-site-1)
+* [Australian Vaccine 2 (external)](https://healthterminologies.gov.au/fhir/ValueSet/australian-vaccine-2)
 
 # Code Systems
 
@@ -21,12 +30,11 @@ Concept maps used in this implementation guide.
 
 # Annotations 
 
-* **NCTS publishing pending** : it is expected the National Clinical Terminology Service will publish these sets in full.
-* **URL pending** : it is certain the canonical URL allocated to this CodeSystem will change.
-* **External** : externally managed CodeSystem content, definition of code is not included here. 
+* **External** : externally managed, follow external link for definition. 
 
 # Services
 
-HL7 Australia published terminologies are also available via open FHIR server http://tx.hl7.org.au/fhir
 
-This service intends to supply services CodeSystem and ValueSet artefacts as defined in this implementation guide.
+Published terminologies are also available via open FHIR server http://primarycare.ontoserver.csiro.au/fhir
+
+This service intends to supply services CodeSystem and ValueSet artefacts as defined and referenced in this implementation guide.
