@@ -61,18 +61,6 @@
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="ConceptMap/e558d72d-5240-4afe-8174-fe5d8b831b70"/>
-      </sourceReference>
-    </resource>
-    <resource>
-      <example value="false"/>
-      <sourceReference>
-        <reference value="ConceptMap/1f8bfdf8-0bb9-4596-80e2-6d50a335e222"/>
-      </sourceReference>
-    </resource>
-    <resource>
-      <example value="false"/>
-      <sourceReference>
         <reference value="StructureDefinition/au-primarycareallergyintolerance"/>
       </sourceReference>
     </resource>

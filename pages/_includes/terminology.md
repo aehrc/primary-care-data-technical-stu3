@@ -4,11 +4,11 @@
 
 Value sets created for this implementation guide.
 
-*It is hoped that the National Clinical Terminology Service will ultimately publish this which would result in a URL change.*
+*It is hoped that the National Clinical Terminology Service will ultimately publish these which would result in a URL change.*
 
 {% include list-simple-valuesets.xhtml %} 
 
-New ValueSet bindings for this implementation guide.
+External ValueSets bound to by this implementation guide (changed bindings only).
 
 * [Australian Indigenous Status (external)](https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1)
 * [Route of Administration (external)](https://healthterminologies.gov.au/fhir/ValueSet/route-of-administration-1)
