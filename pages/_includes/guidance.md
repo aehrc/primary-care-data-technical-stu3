@@ -2,6 +2,21 @@
 
 This guide is for practice-to-practice primary care patient record transfer.
 
+## Definition of mustSupport
+
+This Implementation Guide is a refinement of AU Base for the primary care context. An open modelling approach has been taken which means that in general, anything present in AU Base has not been forbidden except where absolutely necessary.
+
+However, it is not the intention that every element in AU Base be supported by implementers and those elements that should be supported have been indicated with the use of the "mustSupport" flag.
+
+It is the responsibility of an Implementation Guide that chooses to use the mustSupport flag to define the meaning of the flag within the Implementation Guide.
+
+For this Implementation Guide, if the mustSupport flag is true for an element, receiving systems must expect that the element could be present in a resource, but it does not mandate the presence of that element. 
+
+It has not yet been decided what the consequences are of sending a resource containing elements that do not have the mustSupport flag, however, implementers are cautioned against using these elements in case it is decided that a non-conforming resource be rejected.
+
+While not explicitly flagged, the "text" field in a CodeableConcept are an implicit mustSupport fields to facilitate data transfer where codes cannot be transferred.
+
+
 ## Maturity Levels 
 These levels used for this Implementation Guide are associated with the [FHIR Maturity Model](http://build.fhir.org/versions.html#maturity) and adjusted for local use.
 
