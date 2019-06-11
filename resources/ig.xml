@@ -59,6 +59,76 @@
       </sourceReference>
     </resource>
     <resource>
+      <example value="true"/>
+      <name value="Oridashi MedicationStatement 1"/>
+      <sourceReference>
+        <reference value="MedicationStatement/4E756D076EDCAF7552FFF6CF7B7BB2A1.147"/>
+      </sourceReference>
+    </resource>	
+    <resource>
+      <example value="true"/>
+      <name value="Oridashi MedicationStatement 2"/>
+      <sourceReference>
+        <reference value="MedicationStatement/B0E0A3ADB59E2F77D6D51ADCA7DAD6B2.10"/>
+      </sourceReference>
+    </resource>	
+    <resource>
+      <example value="true"/>
+      <name value="Oridashi Immunization 1"/>
+      <sourceReference>
+        <reference value="Immunization/B0E0A3ADB59E2F77D6D51ADCA7DAD6B2.70"/>
+      </sourceReference>
+    </resource>	
+    <resource>
+      <example value="true"/>
+      <name value="Oridashi Immunization 2"/>
+      <sourceReference>
+        <reference value="Immunization/4E756D076EDCAF7552FFF6CF7B7BB2A1.143"/>
+      </sourceReference>
+    </resource>	
+    <resource>
+      <example value="true"/>
+      <name value="Oridashi Procedure 1"/>
+      <sourceReference>
+        <reference value="Procedure/B0E0A3ADB59E2F77D6D51ADCA7DAD6B2.89"/>
+      </sourceReference>
+    </resource>	
+    <resource>
+      <example value="true"/>
+      <name value="Oridashi Procedure 2"/>
+      <sourceReference>
+        <reference value="Procedure/4E756D076EDCAF7552FFF6CF7B7BB2A1.168"/>
+      </sourceReference>
+    </resource>	
+    <resource>
+      <example value="true"/>
+      <name value="Oridashi Condition 1"/>
+      <sourceReference>
+        <reference value="Condition/B0E0A3ADB59E2F77D6D51ADCA7DAD6B2.76"/>
+      </sourceReference>
+    </resource>	
+    <resource>
+      <example value="true"/>
+      <name value="Oridashi Condition 2"/>
+      <sourceReference>
+        <reference value="Condition/4E756D076EDCAF7552FFF6CF7B7BB2A1.163"/>
+      </sourceReference>
+    </resource>	
+    <resource>
+      <example value="true"/>
+      <name value="Oridashi Allergy Intolerance 1"/>
+      <sourceReference>
+        <reference value="AllergyIntolerance/B0E0A3ADB59E2F77D6D51ADCA7DAD6B2.6"/>
+      </sourceReference>
+    </resource>	
+    <resource>
+      <example value="true"/>
+      <name value="Oridashi Allergy Intolerance 2"/>
+      <sourceReference>
+        <reference value="AllergyIntolerance/4E756D076EDCAF7552FFF6CF7B7BB2A1.18"/>
+      </sourceReference>
+    </resource>	
+    <resource>
       <example value="false"/>
       <sourceReference>
         <reference value="StructureDefinition/au-primarycareallergyintolerance"/>
