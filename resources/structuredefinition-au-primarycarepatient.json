@@ -40,7 +40,7 @@
           }
         ],
         "binding": {
-          "strength": "required",
+          "strength": "extensible",
           "valueSetReference": {
             "reference": "https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1"
           }
