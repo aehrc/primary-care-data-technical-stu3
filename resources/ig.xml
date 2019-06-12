@@ -129,6 +129,42 @@
       </sourceReference>
     </resource>	
     <resource>
+      <example value="true"/>
+      <name value="Sample Allergy Intolerance: Unconfirmed peanut allergy"/>
+      <sourceReference>
+        <reference value="AllergyIntolerance/cf-1554878062500"/>
+      </sourceReference>
+    </resource>	
+    <resource>
+      <example value="true"/>
+      <name value="Sample Allergy Intolerance: eosinophilic oesphagitis triggered by wheat and dairy"/>
+      <sourceReference>
+        <reference value="AllergyIntolerance/cf-1554873772436"/>
+      </sourceReference>
+    </resource>	
+	
+    <resource>
+      <example value="true"/>
+      <name value="Sample Allergy Intolerance List"/>
+      <sourceReference>
+        <reference value="List/cf-1554873603226"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <name value="Sample Allergy Intolerance List: Empty (nilknown)"/>
+      <sourceReference>
+        <reference value="List/cf-1554878846011"/>
+      </sourceReference>
+    </resource>	
+    <resource>
+      <example value="true"/>
+      <name value="Sample Allergy Intolerance List: Empty (unknown)"/>
+      <sourceReference>
+        <reference value="List/cf-1554879075420"/>
+      </sourceReference>
+    </resource>
+    <resource>
       <example value="false"/>
       <sourceReference>
         <reference value="StructureDefinition/au-primarycareallergyintolerance"/>
