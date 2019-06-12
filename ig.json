@@ -184,14 +184,6 @@
             "base": "StructureDefinition-au-primarycareprocedure.html",
             "defns": "StructureDefinition-au-primarycareprocedure-definitions.html"
         },
-        "ConceptMap/e558d72d-5240-4afe-8174-fe5d8b831b70": {
-            "base": "ConceptMap-e558d72d-5240-4afe-8174-fe5d8b831b70.html",
-            "defns": "ConceptMap-e558d72d-5240-4afe-8174-fe5d8b831b70-definitions.html"
-        },
-        "ConceptMap/1f8bfdf8-0bb9-4596-80e2-6d50a335e222": {
-            "base": "ConceptMap-1f8bfdf8-0bb9-4596-80e2-6d50a335e222.html",
-            "defns": "ConceptMap-1f8bfdf8-0bb9-4596-80e2-6d50a335e222-definitions.html"
-        },
         "StructureDefinition/condition-course": {
             "base": "StructureDefinition-condition-course.html",
             "defns": "StructureDefinition-condition-course-definitions.html"
@@ -200,9 +192,13 @@
             "base": "ValueSet-au-primarycare-clinical-indication-for-medication.html",
             "defns": "au-primarycare-clinical-indication-for-medication-definitions.html"
         },
-        "ValueSet/ValueSet-au-primarycare-condition-course": {
+        "ValueSet/au-primarycare-condition-course": {
             "base": "ValueSet-au-primarycare-condition-course.html",
             "defns": "ValueSet-au-primarycare-condition-course-definitions.html"
+        },
+        "ValueSet/au-primarycare-reaction-manifestation": {
+            "base": "valueset-au-primarycare-reaction-manifestation.html",
+            "defns": "ValueSet-au-primarycare-reaction-manifestation-definitions.html"
         }
     }
 }
