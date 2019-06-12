@@ -29,7 +29,7 @@ All artifacts in this specification are assigned a "Maturity Level", known as FM
 The following FMM levels are defined:
 
 {:start="0"}
-**DRAFT 0** The resource or profile (artifact) has been published on the current build. This level is synonymous with Draft.
+**FMM 0** The resource or profile (artifact) has been published on the current build. This level is synonymous with Draft.
 
 **FMM 1** PLUS the artifact produces no warnings during the build process and the responsible WG has indicated that they consider the artifact substantially complete and ready for implementation. 
 
