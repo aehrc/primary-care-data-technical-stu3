@@ -40,9 +40,9 @@
       ],
       "city": "MIRANDA",
       "state": "NSW",
-      "postalCode": "2228",
+      "postalCode": "2228"
     }
-  ]
+  ],
   "identifier": [
     {
       "type": {
@@ -59,7 +59,7 @@
       "value": "35001582843",
 	  "period": {
 		"end": "2021-06"
-	  },
+	  }
     }
   ],
   "maritalStatus": {
