@@ -32,7 +32,7 @@
         <reference value="Practitioner/4E756D076EDCAF7552FFF6CF7B7BB2A1.2" />
     </recorder>
     <reaction>
-        <extension url="http://oridashi.com.au/fhir/StructureDefinition/allergyintolerance-severity">
+        <!--extension url="http://oridashi.com.au/fhir/StructureDefinition/allergyintolerance-severity">
             <valueCodeableConcept>
                 <coding>
                     <system value="http://oridashi.com.au/system/code/bestpracticeseverity" />
@@ -41,7 +41,7 @@
                 </coding>
                 <text value="Moderately Severe" />
             </valueCodeableConcept>
-        </extension>
+        </extension-->
         <manifestation>
             <text value="rash" />
         </manifestation>
