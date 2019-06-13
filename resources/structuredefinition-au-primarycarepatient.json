@@ -88,6 +88,11 @@
         "mustSupport": true
       },
       {
+        "id": "Patient.telecom:phone.value",
+        "path": "Patient.telecom.value",
+        "mustSupport": true
+      },
+      {
         "id": "Patient.gender",
         "path": "Patient.gender",
         "label": "Gender-Identity",
