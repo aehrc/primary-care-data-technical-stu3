@@ -96,7 +96,11 @@
       "system": "email",
       "value": "sfranklin@amail.com.au",
       "use": "work"
-    }
+    },
+	{
+		"system": "phone",
+		"value" : "0444 444 444"
+	}
   ],
   "gender": "female",
   "birthDate": "1985-10-14",

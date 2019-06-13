@@ -33,6 +33,16 @@
       }
     ]
   },
+   "address": [
+    {
+      "line": [
+        "600 The Kingsway"
+      ],
+      "city": "MIRANDA",
+      "state": "NSW",
+      "postalCode": "2228",
+    }
+  ]
   "identifier": [
     {
       "type": {
@@ -46,7 +56,10 @@
         "text": "Medicare Number"
       },
       "system": "http://ns.electronichealth.net.au/id/medicare-number",
-      "value": "35001582843"
+      "value": "35001582843",
+	  "period": {
+		"end": "2021-06"
+	  },
     }
   ],
   "maritalStatus": {

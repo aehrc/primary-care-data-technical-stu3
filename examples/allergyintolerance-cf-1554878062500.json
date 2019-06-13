@@ -8,6 +8,7 @@
   "patient": {
     "reference": "Patient/cf-1554873707223"
   },
+  "clinicalStatus": "active",
   "verificationStatus": "unconfirmed",
   "type": "allergy",
   "category": [
