@@ -96,7 +96,7 @@
         "id": "Patient.gender",
         "path": "Patient.gender",
         "label": "Gender-Identity",
-        "mustSupport": true,
+        "mustSupport": false,
         "mapping": [
           {
             "identity": "fhir",
