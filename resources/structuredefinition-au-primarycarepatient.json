@@ -93,6 +93,22 @@
         "mustSupport": true
       },
       {
+        "id": "Patient.telecom:email",
+        "path": "Patient.telecom",
+        "sliceName": "email"
+      },
+      {
+        "id": "Patient.telecom:email.system",
+        "path": "Patient.telecom.system",
+        "fixedCode": "email",
+        "mustSupport": true
+      },
+      {
+        "id": "Patient.telecom:email.value",
+        "path": "Patient.telecom.value",
+        "mustSupport": true
+      },
+      {
         "id": "Patient.gender",
         "path": "Patient.gender",
         "label": "Gender-Identity",
