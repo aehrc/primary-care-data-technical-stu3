@@ -26,7 +26,13 @@
           }
         ],
         "path": "Medication",
-        "short": "A medication in an Australian primary care practice-to-practice record transfer context."
+        "short": "A medication in an Australian primary care practice-to-practice record transfer context.",
+        "definition": "A medicine, nutritional product or other therapeutic item that is currently being taken by the individual, including items that are prescribed or obtained over the counter.\r\nMedication content use in an Australian context.  Includes concepts that are specific to Australian usage.",
+        "alias": [
+          "Medicine",
+          "Medicine Item",
+          "Drug"
+        ]
       },
       {
         "id": "Medication.extension:strengthText",
@@ -44,6 +50,10 @@
       {
         "id": "Medication.code",
         "path": "Medication.code",
+        "definition": "Australian coding slices are typical medicine/product concept codes.\r\n\r\nThis data field can be used to record tightly bound orders of multiple medications when they are prescribed as a single pack. The extent of coding may vary from the simple name of the medication item through to details about the actual medication pack to be used. It is strongly recommended that the medicine be coded with a terminology capable of triggering decision support, where possible. Free text entry should only be used if there is no appropriate terminology available or for extemporaneous products",
+        "alias": [
+          "Drug name"
+        ],
         "mustSupport": true
       },
       {
@@ -55,6 +65,7 @@
       {
         "id": "Medication.form",
         "path": "Medication.form",
+        "definition": "The physical presentation or formulation of the medicine.  Powder; tablets; capsule.",
         "mustSupport": true
       },
       {
@@ -88,6 +99,10 @@
       {
         "id": "Medication.ingredient.amount",
         "path": "Medication.ingredient.amount",
+        "definition": "The amount of the active ingredient in the Medicine, expressed as a ratio or concentration\r\n\r\nSpecifies how many (or how much) of the items there are in this Medication.  For example, 250 mg per tablet.  This is expressed as a ratio where the numerator is 250mg and the denominator is 1 tablet.",
+        "alias": [
+          "Concentration"
+        ],
         "mustSupport": true
       }
     ]

@@ -142,7 +142,8 @@
             "code": "Reference",
             "targetProfile": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedicalHistoryList"
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Composition.section:medicalHistory.emptyReason",
@@ -180,7 +181,8 @@
             "code": "Reference",
             "targetProfile": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareAllergyIntoleranceList"
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Composition.section:adverseReaction.emptyReason",
@@ -244,7 +246,8 @@
             "code": "Reference",
             "targetProfile": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareImmunisationList"
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Composition.section:immunisation.emptyReason",
@@ -266,6 +269,12 @@
         ],
         "path": "Composition.section",
         "sliceName": "medicines",
+        "short": "Active Medicines List",
+        "definition": "A list of medicines currently being used by the individual.",
+        "comment": "Refer to ASQHC On screen display of meds",
+        "alias": [
+          "Medicines List"
+        ],
         "min": 1,
         "max": "1"
       },
@@ -282,7 +291,8 @@
             "code": "Reference",
             "targetProfile": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedicineList"
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Composition.section:medicines.emptyReason",
