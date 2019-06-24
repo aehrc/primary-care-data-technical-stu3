@@ -1,0 +1,24 @@
+{
+	"resourceType": "List",
+	"id": "283f6969-6767-4d8f-8b73-2f8a5ab6a56a",
+	"meta": {
+		"profile": ["https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedicineList"]
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns='http://www.w3.org/1999/xhtml'>Medicines List<a name='mm'/></div>"
+	},
+	"status": "current",
+	"mode": "snapshot",
+	"subject": {
+		"reference": "urn:uuid:0d8e349b-e751-4ef7-9089-ffeb2d1aaff4"
+	},
+	"entry":
+	[
+	{
+		"item": {
+			"reference": "urn:uuid:7c9ce6f6-1d7d-4cba-9eee-6c03a048d06f"
+		}
+	}
+	]
+}

@@ -142,7 +142,6 @@
         <reference value="AllergyIntolerance/cf-1554873772436"/>
       </sourceReference>
     </resource>	
-	
     <resource>
       <example value="true"/>
       <name value="Sample Allergy Intolerance List"/>
@@ -162,6 +161,20 @@
       <name value="Sample Allergy Intolerance List: Empty (unknown)"/>
       <sourceReference>
         <reference value="List/cf-1554879075420"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <name value="Medication List"/>
+      <sourceReference>
+        <reference value="List/283f6969-6767-4d8f-8b73-2f8a5ab6a56a"/>
+      </sourceReference>
+    </resource>	
+    <resource>
+      <example value="true"/>
+      <name value="Sample Composition"/>
+      <sourceReference>
+        <reference value="Composition/example0"/>
       </sourceReference>
     </resource>
     <resource>
