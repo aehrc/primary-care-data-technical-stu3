@@ -304,6 +304,11 @@
         ],
         "path": "Composition.section",
         "sliceName": "clinicalSynopsis",
+        "short": "Clinical Synopsis",
+        "definition": "Narrative text that provides additional information or context about the individual that is NOT otherwise captured in the structured clinical content of the exchange but is considered relevant by the sending clinician as part of a comprehensive clinical handover of information.",
+        "alias": [
+          "Clinical summary"
+        ],
         "max": "1"
       },
       {
@@ -342,6 +347,12 @@
         ],
         "path": "Composition.section.code.coding.display",
         "fixedString": "History general"
+      },
+      {
+        "id": "Composition.section:clinicalSynopsis.text",
+        "path": "Composition.section.text",
+        "short": "Clinical Synopsis Text",
+        "mustSupport": true
       },
       {
         "id": "Composition.section:clinicalSynopsis.section",
