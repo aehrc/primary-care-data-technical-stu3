@@ -222,6 +222,18 @@
     <resource>
       <example value="false"/>
       <sourceReference>
+        <reference value="StructureDefinition/au-primarycareproblemlist"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/au-primarycareprocedurelist"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
         <reference value="StructureDefinition/au-primarycaremedication"/>
       </sourceReference>
     </resource>
