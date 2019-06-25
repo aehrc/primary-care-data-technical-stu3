@@ -18,16 +18,16 @@
   "differential": {
     "element": [
       {
+        "id": "Procedure",
+        "path": "Procedure",
+        "definition": "An action that is or was performed on a patient. This can be a physical intervention like an operation, or less invasive like counseling or hypnotherapy.\r\n\r\nA clinical activity carried out for screening, investigative, diagnostic, curative, therapeutic, evaluative or palliative purposes."
+      },
+      {
         "id": "Procedure.code",
         "path": "Procedure.code",
+        "comment": "Can include operations performed outside of primary care",
         "mustSupport": true,
         "binding": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-              "valueString": "ProcedureCode"
-            }
-          ],
           "strength": "preferred",
           "valueSetReference": {
             "reference": "https://healthterminologies.gov.au/fhir/ValueSet/procedure-1"
@@ -35,8 +35,23 @@
         }
       },
       {
+        "id": "Procedure.performed[x]",
+        "path": "Procedure.performed[x]",
+        "comment": "partial dates acceptable",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.bodySite",
+        "path": "Procedure.bodySite",
+        "mustSupport": true
+      },
+      {
         "id": "Procedure.note",
         "path": "Procedure.note",
+        "definition": "Additional narrative about the procedure not captured in other fields. E.g. the operative notes.",
+        "alias": [
+          "Comment"
+        ],
         "mustSupport": true
       }
     ]
