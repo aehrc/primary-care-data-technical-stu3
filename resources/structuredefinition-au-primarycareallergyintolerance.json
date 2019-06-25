@@ -31,6 +31,9 @@
         "id": "AllergyIntolerance.verificationStatus",
         "path": "AllergyIntolerance.verificationStatus",
         "comment": "This element is labeled as a modifier because the status contains the codes refuted and entered-in-error that mark the AllergyIntolerance as not currently valid.\r\n\r\nIf the clinician has not provided specific information about the clinical verification of the reaction, then it should be exported as 'unconfirmed'.",
+        "alias": [
+          "Certainty"
+        ],
         "mustSupport": true,
         "binding": {
           "strength": "required",
@@ -45,7 +48,7 @@
       {
         "id": "AllergyIntolerance.code",
         "path": "AllergyIntolerance.code",
-        "mustSupport": true
+        "comment": "Since GP software systems support substance, reaction.substance should be filled out in preference of this field.\r\n\r\nIt is strongly recommended that this element be populated using a terminology, where possible. For example, some terminologies used include RxNorm, SNOMED CT, DM+D, NDFRT, ICD-9, IDC-10, UNI, ATC and CPT. Plain text should only be used if there is no appropriate terminology available. Additional details can be specified in the text.\r\rWhen a substance or product code is specified for the 'code' element, the \"default\" semantic context is that this is a positive statement of an allergy or intolerance (depending on the value of the 'type' element, if present) condition to the specified substance/product.  In the corresponding SNOMED CT allergy model, the specified substance/product is the target (destination) of the \"Causative agent\" relationship.\r\rThe 'substanceExposureRisk' extension is available as a structured and more flexible alternative to the 'code' element for making positive or negative allergy or intolerance statements.  This extension provides the capability to make \"no known allergy\" (or \"no risk of adverse reaction\") statements regarding any coded substance/product (including cases when a pre-coordinated \"no allergy to x\" concept for that substance/product does not exist).  If the 'substanceExposureRisk' extension is present, the AllergyIntolerance.code element SHALL be omitted."
       },
       {
         "id": "AllergyIntolerance.patient",
@@ -65,6 +68,12 @@
       {
         "id": "AllergyIntolerance.reaction.substance",
         "path": "AllergyIntolerance.reaction.substance",
+        "definition": "Identification of the specific substance (or pharmaceutical product) considered to be responsible for the Adverse Reaction event. Note: the substance for a specific reaction may be different from the substance identified as the cause of the risk, but it must be consistent with it. For instance, it may be a more specific substance (e.g. a brand medication) or a composite product that includes the identified substance. It must be clinically safe to only process the 'code' and ignore the 'reaction.substance'.\r\n\r\nBoth an individual substance and a substance class are valid entries in 'Substance'. A substance may be a compound of simpler substances, for example a medicinal product.",
+        "alias": [
+          "Agent",
+          "Class",
+          "Product"
+        ],
         "min": 1,
         "mustSupport": true
       },
@@ -77,6 +86,11 @@
       {
         "id": "AllergyIntolerance.reaction.manifestation",
         "path": "AllergyIntolerance.reaction.manifestation",
+        "alias": [
+          "Reaction",
+          "Nature of reaction",
+          "Clinical manifestation"
+        ],
         "mustSupport": true
       },
       {
@@ -92,6 +106,9 @@
       {
         "id": "AllergyIntolerance.reaction.note",
         "path": "AllergyIntolerance.reaction.note",
+        "alias": [
+          "Comment"
+        ],
         "mustSupport": true
       }
     ]

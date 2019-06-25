@@ -30,7 +30,13 @@
       {
         "id": "List",
         "path": "List",
-        "short": "A list of allergies/intolerances in an Australian primary care practice-to-practice record transfer context."
+        "short": "A list of allergies/intolerances in an Australian primary care practice-to-practice record transfer context.",
+        "definition": "A list of substances which, on administration or during exposure, may put the individual at risk of an adverse reaction.",
+        "comment": "Absence: A positive statement of absence of any adverse reaction information will be represented by the phrase \r\nExclusion: A positive statement excluding the presence of any adverse reactions will be represented  by the phrase ‘Nil known’.",
+        "alias": [
+          "Allergy list",
+          "Allergy/intolerance"
+        ]
       },
       {
         "id": "List.status",
