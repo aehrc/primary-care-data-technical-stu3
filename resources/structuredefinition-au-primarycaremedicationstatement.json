@@ -35,6 +35,12 @@
       {
         "id": "MedicationStatement.reasonCode",
         "path": "MedicationStatement.reasonCode",
+        "definition": "Clinical reason for use of the medication or therapeutic item.\r\nIt is not intended to carry an indication for administrative authorisation purposes.",
+        "alias": [
+          "Clinical Indication",
+          "Reason for Medication",
+          "Reason for Prescription"
+        ],
         "mustSupport": true
       },
       {
@@ -49,6 +55,9 @@
       {
         "id": "MedicationStatement.note",
         "path": "MedicationStatement.note",
+        "alias": [
+          "Comment"
+        ],
         "mustSupport": false
       },
       {
@@ -61,20 +70,23 @@
       {
         "id": "MedicationStatement.dosage.additionalInstruction",
         "path": "MedicationStatement.dosage.additionalInstruction",
-        "mustSupport": true,
-        "binding": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-              "valueString": "AdditionalInstruction"
-            }
-          ],
-          "strength": "extensible"
-        }
+        "definition": "Additional information on how to use or store the ordered item. May be used to communicate complex dose instructions such as a tapering dose over time.",
+        "comment": "For complex dosage regimes such as tapers, select the “Medication to be tapered” value and enter previse details here.",
+        "mustSupport": true
+      },
+      {
+        "id": "MedicationStatement.dosage.timing",
+        "path": "MedicationStatement.dosage.timing",
+        "alias": [
+          "frequency"
+        ]
       },
       {
         "id": "MedicationStatement.dosage.timing.repeat.duration",
         "path": "MedicationStatement.dosage.timing.repeat.duration",
+        "alias": [
+          "period"
+        ],
         "mustSupport": true
       },
       {
@@ -85,14 +97,9 @@
       {
         "id": "MedicationStatement.dosage.route",
         "path": "MedicationStatement.dosage.route",
+        "definition": "The route by which the medication is administered into the body.",
         "mustSupport": true,
         "binding": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-              "valueString": "RouteOfAdministration"
-            }
-          ],
           "strength": "extensible",
           "valueSetReference": {
             "reference": "https://healthterminologies.gov.au/fhir/ValueSet/route-of-administration-1"
