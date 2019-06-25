@@ -25,6 +25,8 @@
 		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedicineList",
 		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareAllergyIntoleranceList",
 		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedicalHistoryList",
+		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareProcedureList",
+		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareProblemList",
 		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareCondition",
 		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareComposition",
 		"https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareProcedure",
@@ -167,6 +169,14 @@
         "StructureDefinition/au-primarycaremedicalhistorylist": {
             "base": "StructureDefinition-au-primarycaremedicalhistorylist.html",
             "defns": "StructureDefinition-au-primarycaremedicalhistorylist-definitions.html"
+        },
+        "StructureDefinition/au-primarycareproblemlist": {
+            "base": "StructureDefinition-au-primarycareproblemlist.html",
+            "defns": "StructureDefinition-au-primarycareproblemlist-definitions.html"
+        },
+        "StructureDefinition/au-primarycareprocedurelist": {
+            "base": "StructureDefinition-au-primarycareprocedurelist.html",
+            "defns": "StructureDefinition-au-primarycareprocedurelist-definitions.html"
         },
         "StructureDefinition/au-primarycaremedication": {
             "base": "StructureDefinition-au-primarycaremedication.html",

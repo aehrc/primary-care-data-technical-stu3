@@ -20,7 +20,7 @@
       {
         "id": "List",
         "path": "List",
-        "short": "A list of Australian primary care practice-to-practice record transfer context.",
+        "short": "A medical history list in an Australian primary care practice-to-practice record transfer context.",
         "definition": "A combined list of significant problems, diagnoses and procedures for the subject of care.",
         "comment": "To exchange information about significant diagnoses, problems and procedures for the subject of care, including one of: an absence of information; an exclusion of any significant problems, diagnoses and procedures; or a list of problem/diagnosis or procedure items",
         "alias": [
