@@ -18,6 +18,11 @@
   "differential": {
     "element": [
       {
+        "id": "Condition",
+        "path": "Condition",
+        "comment": "Details about a single identified health condition, injury, disability or any other issue which impacts on the physical, mental and/or social well-being of an individual."
+      },
+      {
         "id": "Condition.extension",
         "path": "Condition.extension",
         "slicing": {
@@ -34,8 +39,6 @@
         "id": "Condition.extension:course",
         "path": "Condition.extension",
         "sliceName": "course",
-        "min": 0,
-        "max": "1",
         "type": [
           {
             "code": "Extension",
@@ -46,6 +49,12 @@
       {
         "id": "Condition.clinicalStatus",
         "path": "Condition.clinicalStatus",
+        "definition": "The clinical status of the condition.\r\nA data element that records whether the condition is active or inactive.",
+        "mustSupport": true
+      },
+      {
+        "id": "Condition.severity",
+        "path": "Condition.severity",
         "mustSupport": true
       },
       {
@@ -64,12 +73,6 @@
         "path": "Condition.bodySite",
         "mustSupport": true,
         "binding": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-              "valueString": "BodySite"
-            }
-          ],
           "strength": "preferred",
           "valueSetReference": {
             "reference": "https://healthterminologies.gov.au/fhir/ValueSet/body-site-1"
@@ -77,8 +80,24 @@
         }
       },
       {
+        "id": "Condition.assertedDate",
+        "path": "Condition.assertedDate",
+        "definition": "Estimated or actual date/time the diagnosis or problem was recognised by a healthcare professional.\r\nPartial dates are allowed.",
+        "comment": "The assertedDate represents the date when this particular Condition record was first recognised by the clinician , not the date of the most recent update in terms of when severity, abatement, etc. were specified.  The date of the last record modification can be retrieved from the resource metadata.",
+        "alias": [
+          "Date",
+          "Date of diagnosis",
+          "Date clinically recognised"
+        ]
+      },
+      {
         "id": "Condition.note",
         "path": "Condition.note",
+        "definition": "Additional information about the Condition not capture in other fields. This is a general notes/comments entry  for description of the Condition, its diagnosis and prognosis.",
+        "alias": [
+          "Comment",
+          "Further details"
+        ],
         "mustSupport": true
       }
     ]
