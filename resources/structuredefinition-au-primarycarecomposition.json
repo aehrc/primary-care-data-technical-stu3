@@ -126,6 +126,14 @@
         ],
         "path": "Composition.section",
         "sliceName": "medicalHistory",
+        "short": "Medical History List",
+        "definition": "A combined list of significant problems, diagnoses and procedures for the individual.",
+        "alias": [
+          "Problem list",
+          "Medical history",
+          "Procedure history",
+          "Surgical history"
+        ],
         "min": 1,
         "max": "1"
       },
@@ -141,6 +149,14 @@
           {
             "code": "Reference",
             "targetProfile": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedicalHistoryList"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareProcedureList"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareProblemList"
           }
         ],
         "mustSupport": true
@@ -167,6 +183,10 @@
         "sliceName": "adverseReaction",
         "short": "Adverse Reaction List",
         "definition": "A list of substances which, on administration or during exposure, may put the individual at risk of an adverse reaction.",
+        "alias": [
+          "Allergy list",
+          "Allergy/intolerance"
+        ],
         "min": 1,
         "max": "1"
       },

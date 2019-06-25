@@ -23,6 +23,8 @@ These Profiles have been defined for this implementation guide.
 
 ## Medical History Profiles
 * [AU Primary Care Medical History List](StructureDefinition-au-primarycaremedicalhistorylist.html) - medical history list with local identifiers and attributes
+* [AU Primary Care Procedure List](StructureDefinition-au-primarycareprocedurelist.html) - procedure list with local identifiers and attributes
+* [AU Primary Care Problem List](StructureDefinition-au-primarycareproblemlist.html) - problem list with local identifiers and attributes
 * [AU Primary Care Procedure](StructureDefinition-au-primarycareprocedure.html) - procedure with local identifiers and attributes
 * [AU Primary Care Condition](StructureDefinition-au-primarycarecondition.html) - condition with local identifiers and attributes
 
