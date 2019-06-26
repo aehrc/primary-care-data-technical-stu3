@@ -20,7 +20,12 @@
       {
         "id": "List",
         "path": "List",
-        "short": "A list of immunisations in an Australian primary care practice-to-practice record transfer context."
+        "short": "A list of vaccines in an Australian primary care practice-to-practice record transfer context.",
+        "definition": "A list of vaccines that have been administered to the individual.",
+        "comment": "Absence: A positive statement of absence of any information about vaccinations will be represented by the phrase ‘Not available’.\r\nExclusion: A positive statement excluding known administration of any vaccinations will be represented by the phrase ‘Nil known’.",
+        "alias": [
+          "Vaccination List"
+        ]
       },
       {
         "id": "List.status",

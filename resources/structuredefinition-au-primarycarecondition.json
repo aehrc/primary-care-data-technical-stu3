@@ -88,7 +88,8 @@
           "Date",
           "Date of diagnosis",
           "Date clinically recognised"
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Condition.note",

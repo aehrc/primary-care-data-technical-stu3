@@ -18,6 +18,12 @@
     "element": [
       {
         "id": "Immunization",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "trial-use"
+          }
+        ],
         "path": "Immunization",
         "short": "An immunisation statement in an Australian primary care practice-to-practice record transfer context."
       },
@@ -30,6 +36,12 @@
       {
         "id": "Immunization.date",
         "path": "Immunization.date",
+        "alias": [
+          "Date of immunisation",
+          "Performed date",
+          "Date given",
+          "Date of vaccination"
+        ],
         "mustSupport": true
       },
       {
