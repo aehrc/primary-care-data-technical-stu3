@@ -17,6 +17,20 @@ It has not yet been decided what the consequences are of sending a resource cont
 While not explicitly flagged, the "text" field in a CodeableConcept are an implicit mustSupport fields to facilitate data transfer where codes cannot be transferred.
 
 
+## Profile conformance
+
+Adherence to the primary care IG profiles should be done via the resource.meta.profile element. For example:
+
+	<Patient xmlns="http://hl7.org/fhir">
+	  <id value="4E756D076EDCAF7552FFF6CF7B7BB2A1.20" />
+		<meta>
+			<versionId value="20180903231855" />
+			<lastUpdated value="2018-09-03T23:18:55.597+00:00" />
+			<profile value="https://aehrc.com/fhir/StructureDefinition/AUPrimaryCarePatient"/>
+		</meta>
+	...
+	</Patient>
+
 ## Maturity Levels 
 These levels used for this Implementation Guide are associated with the [FHIR Maturity Model](http://build.fhir.org/versions.html#maturity) and adjusted for local use.
 
