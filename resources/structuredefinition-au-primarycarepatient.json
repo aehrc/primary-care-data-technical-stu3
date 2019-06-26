@@ -46,7 +46,7 @@
           }
         ],
         "binding": {
-          "strength": "extensible",
+          "strength": "required",
           "valueSetReference": {
             "reference": "https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1"
           }
@@ -226,6 +226,14 @@
         "definition": "Languages (including sign language) which may be used to communicate with the patient about his or her health.",
         "comment": "If no language is specified, this *implies* that the default local language is spoken.  If you need to convey proficiency for multiple modes then you need multiple Patient.Communication associations.  If the Patient does not speak the default local language, then the Interpreter Required Standard can be used to explicitly declare that an interpreter is required.",
         "mustSupport": true
+      },
+      {
+        "id": "Patient.communication.language",
+        "path": "Patient.communication.language",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required"
+        }
       }
     ]
   }
