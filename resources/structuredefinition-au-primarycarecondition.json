@@ -49,17 +49,14 @@
       {
         "id": "Condition.clinicalStatus",
         "path": "Condition.clinicalStatus",
+        "short": "active | inactive",
         "definition": "The clinical status of the condition.\r\nA data element that records whether the condition is active or inactive.",
+        "comment": "The bound valueSet will allow for additional status, however, only active / inactive are permissable here.",
         "mustSupport": true
       },
       {
         "id": "Condition.severity",
         "path": "Condition.severity",
-        "mustSupport": true
-      },
-      {
-        "id": "Condition.code",
-        "path": "Condition.code",
         "mustSupport": true
       },
       {
@@ -98,7 +95,11 @@
         "alias": [
           "Comment",
           "Further details"
-        ],
+        ]
+      },
+      {
+        "id": "Condition.note.text",
+        "path": "Condition.note.text",
         "mustSupport": true
       }
     ]

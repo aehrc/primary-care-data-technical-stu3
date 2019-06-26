@@ -22,6 +22,19 @@
         "short": "A record of medication being taken by a patient in an Australian primary care practice-to-practice record transfer context."
       },
       {
+        "id": "MedicationStatement.medication[x]",
+        "path": "MedicationStatement.medication[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedication"
+          }
+        ]
+      },
+      {
         "id": "MedicationStatement.medication[x]:medicationCoded",
         "path": "MedicationStatement.medication[x]",
         "sliceName": "medicationCoded"
@@ -61,6 +74,11 @@
         "mustSupport": false
       },
       {
+        "id": "MedicationStatement.note.text",
+        "path": "MedicationStatement.note.text",
+        "mustSupport": true
+      },
+      {
         "id": "MedicationStatement.dosage",
         "path": "MedicationStatement.dosage",
         "alias": [
@@ -92,6 +110,21 @@
       {
         "id": "MedicationStatement.dosage.timing.repeat.frequency",
         "path": "MedicationStatement.dosage.timing.repeat.frequency",
+        "mustSupport": true
+      },
+      {
+        "id": "MedicationStatement.dosage.timing.repeat.period",
+        "path": "MedicationStatement.dosage.timing.repeat.period",
+        "mustSupport": true
+      },
+      {
+        "id": "MedicationStatement.dosage.timing.repeat.when",
+        "path": "MedicationStatement.dosage.timing.repeat.when",
+        "mustSupport": true
+      },
+      {
+        "id": "MedicationStatement.dosage.asNeeded[x]",
+        "path": "MedicationStatement.dosage.asNeeded[x]",
         "mustSupport": true
       },
       {

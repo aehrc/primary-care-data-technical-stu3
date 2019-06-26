@@ -31,7 +31,11 @@
         "id": "Immunization.vaccineCode.coding:amtVaccineCode",
         "path": "Immunization.vaccineCode.coding",
         "sliceName": "amtVaccineCode",
-        "mustSupport": true
+        "mustSupport": true,
+        "binding": {
+          "strength": "extensible",
+          "valueSetUri": "https://healthterminologies.gov.au/fhir/ValueSet/australian-vaccine-2"
+        }
       },
       {
         "id": "Immunization.date",
@@ -45,8 +49,8 @@
         "mustSupport": true
       },
       {
-        "id": "Immunization.note",
-        "path": "Immunization.note",
+        "id": "Immunization.note.text",
+        "path": "Immunization.note.text",
         "mustSupport": true
       }
     ]

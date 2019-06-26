@@ -108,7 +108,11 @@
         "path": "AllergyIntolerance.reaction.note",
         "alias": [
           "Comment"
-        ],
+        ]
+      },
+      {
+        "id": "AllergyIntolerance.reaction.note.text",
+        "path": "AllergyIntolerance.reaction.note.text",
         "mustSupport": true
       }
     ]

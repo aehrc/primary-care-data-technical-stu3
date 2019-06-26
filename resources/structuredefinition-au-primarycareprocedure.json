@@ -63,7 +63,11 @@
         "definition": "Additional narrative about the procedure not captured in other fields. E.g. the operative notes.",
         "alias": [
           "Comment"
-        ],
+        ]
+      },
+      {
+        "id": "Procedure.note.text",
+        "path": "Procedure.note.text",
         "mustSupport": true
       }
     ]
