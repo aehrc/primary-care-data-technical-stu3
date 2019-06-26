@@ -32,6 +32,12 @@
         "fixedCode": "snapshot"
       },
       {
+        "id": "List.date",
+        "path": "List.date",
+        "definition": "The date that the list was determined / last reviewed",
+        "mustSupport": true
+      },
+      {
         "id": "List.entry",
         "path": "List.entry",
         "mustSupport": true
