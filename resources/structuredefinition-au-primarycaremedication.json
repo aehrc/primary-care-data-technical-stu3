@@ -71,12 +71,6 @@
       {
         "id": "Medication.form.coding",
         "path": "Medication.form.coding",
-        "mustSupport": false
-      },
-      {
-        "id": "Medication.form.coding:snomedForm",
-        "path": "Medication.form.coding",
-        "sliceName": "snomedForm",
         "mustSupport": true
       },
       {

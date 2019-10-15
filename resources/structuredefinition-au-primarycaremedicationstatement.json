@@ -35,17 +35,6 @@
         ]
       },
       {
-        "id": "MedicationStatement.medication[x]:medicationCoded",
-        "path": "MedicationStatement.medication[x]",
-        "sliceName": "medicationCoded"
-      },
-      {
-        "id": "MedicationStatement.medication[x]:medicationCoded.coding:amt",
-        "path": "MedicationStatement.medication[x].coding",
-        "sliceName": "amt",
-        "mustSupport": true
-      },
-      {
         "id": "MedicationStatement.reasonCode",
         "path": "MedicationStatement.reasonCode",
         "definition": "Clinical reason for use of the medication or therapeutic item.\r\nIt is not intended to carry an indication for administrative authorisation purposes.",
