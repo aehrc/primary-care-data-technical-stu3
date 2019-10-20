@@ -1,6 +1,5 @@
 ---
 # jekyll header
-title: Primary Care Implementation Guide
 ---
 {% include header.html %}
 
@@ -10,10 +9,13 @@ title: Primary Care Implementation Guide
 
   <!-- ============CONTENT CONTENT=============== -->
 
-{% capture my-include %}{% include intro.md %}{% endcapture %}{{ my-include | markdownify }}
+
+    {% capture my-include %}{% include history.md %}{% endcapture %}{{ my-include | markdownify }}
+
+
 
   <!-- ==============END CONTENT END CONTENT=================== -->
 
 {% include container-end.html %}
 
-{% include footer.html %}
+    {% include footer.html %}
