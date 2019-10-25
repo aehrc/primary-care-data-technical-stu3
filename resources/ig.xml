@@ -270,6 +270,24 @@
     <resource>
       <example value="false"/>
       <sourceReference>
+        <reference value="StructureDefinition/au-primarycarefamilymemberhistorylist"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/au-primarycarefamilymemberhistory"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/au-primarycaresocialhistorylist"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
         <reference value="ValueSet/au-primarycare-clinical-indication-for-medication"/>
       </sourceReference>
     </resource>
@@ -283,6 +301,12 @@
       <example value="false"/>
       <sourceReference>
         <reference value="ValueSet/au-primarycare-reaction-manifestation"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/au-primarycare-genetic-family-member"/>
       </sourceReference>
     </resource>
   </package>

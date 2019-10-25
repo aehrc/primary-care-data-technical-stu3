@@ -28,4 +28,13 @@ These Profiles have been defined for this implementation guide.
 * [AU Primary Care Procedure](StructureDefinition-au-primarycareprocedure.html) - procedure with local identifiers and attributes
 * [AU Primary Care Condition](StructureDefinition-au-primarycarecondition.html) - condition with local identifiers and attributes
 
+## Family History Profiles
+* [AU Primary Care Family Member History List](StructureDefinition-au-primarycarefamilymemberhistorylist.html) - family member history list with local identifiers and attributes
+* [AU Primary Care Family Member History](StructureDefinition-au-primarycarefamilymemberhistory.html) - family member history with local identifiers and attributes
 
+## Social History Profiles
+* [AU Primary Care Social History List](StructureDefinition-au-primarycaresocialhistorylist.html) - social history list with local identifiers and attributes
+
+## Pregnancy / Breastfeeding Profiles
+
+## Follow Ups Profiles

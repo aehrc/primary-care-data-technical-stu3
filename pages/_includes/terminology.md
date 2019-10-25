@@ -14,6 +14,7 @@ External ValueSets bound to by this implementation guide (changed bindings only)
 * [Route of Administration (external)](https://healthterminologies.gov.au/fhir/ValueSet/route-of-administration-1)
 * [Body Site 1 (external)](https://healthterminologies.gov.au/fhir/ValueSet/body-site-1)
 * [Australian Vaccine 2 (external)](https://healthterminologies.gov.au/fhir/ValueSet/australian-vaccine-2)
+* [Clinical Condition 1 (external)](https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1)
 
 # Code Systems
 

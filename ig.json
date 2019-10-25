@@ -202,6 +202,18 @@
             "base": "StructureDefinition-condition-course.html",
             "defns": "StructureDefinition-condition-course-definitions.html"
         },
+        "StructureDefinition/au-primarycarefamilymemberhistorylist": {
+            "base": "StructureDefinition-au-primarycarefamilymemberhistorylist.html",
+            "defns": "StructureDefinition-au-primarycarefamilymemberhistorylist-definitions.html"
+        },
+        "StructureDefinition/au-primarycarefamilymemberhistory": {
+            "base": "StructureDefinition-au-primarycarefamilymemberhistory.html",
+            "defns": "StructureDefinition-au-primarycarefamilymemberhistory-definitions.html"
+        },
+        "StructureDefinition/au-primarycaresocialhistorylist": {
+            "base": "StructureDefinition-au-primarycaresocialhistorylist.html",
+            "defns": "StructureDefinition-au-primarycaresocialhistorylist-definitions.html"
+        },
         "ValueSet/au-primarycare-clinical-indication-for-medication": {
             "base": "ValueSet-au-primarycare-clinical-indication-for-medication.html",
             "defns": "au-primarycare-clinical-indication-for-medication-definitions.html"
@@ -213,6 +225,10 @@
         "ValueSet/au-primarycare-reaction-manifestation": {
             "base": "valueset-au-primarycare-reaction-manifestation.html",
             "defns": "ValueSet-au-primarycare-reaction-manifestation-definitions.html"
+        },
+        "ValueSet/au-primarycare-genetic-family-member": {
+            "base": "valueset-au-primarycare-genetic-family-member.html",
+            "defns": "ValueSet-au-primarycare-genetic-family-member.html"
         }
     }
 }
