@@ -1,6 +1,8 @@
 # Australian Primary Care Practice-to-Practice Record Transfer IG
 
-This project contains all the files necessary to generate the Implementation Guide (IG) for the primary care data technical project. 
+This project contains all the files necessary to generate the STU3 Implementation Guide (IG) for the primary care data technical project. 
+
+The R4 IG project is available from https://github.com/aehrc/primary-care-data-technical.
 
 The IG publisher is used to build the IG and you can obatain the latest copy here https://fhir.github.io/latest-ig-publisher/org.hl7.fhir.publisher.jar
 
