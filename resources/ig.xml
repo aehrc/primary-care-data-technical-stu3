@@ -25,7 +25,7 @@
       <code value="AU"/>
     </coding>
   </jurisdiction>
-  <fhirVersion value="3.0.1"/>
+  <fhirVersion value="3.0.2"/>
   <package>
     <name value="base"/>	
     <resource>
